@@ -77,7 +77,7 @@ import { noteLocalChange, type SyncedChange } from '@/frontend/state/syncBus';
 import { useCloudSync } from '@/frontend/hooks/useCloudSync';
 import { getDishIngredients } from '@/shared/recipeData';
 import { buildDineoutActivePicker, pickFromUserText, quickRead } from '@/shared/picker';
-import { onPickerReady, pickerSnapshot, sendBestPick, sendPlanPick, sendReasons, sendToPicker, type PlanPickResolver } from '@/frontend/utils/pickerBridge';
+import { onPickerReady, pickerSnapshot, requestPickerOpen, sendBestPick, sendPlanPick, sendReasons, sendToPicker, type PlanPickResolver } from '@/frontend/utils/pickerBridge';
 import { noteUserAsk } from '@/frontend/state/userNeeds';
 import { useCertainlyLoggedOut } from '@/frontend/state/authHint';
 
@@ -4745,6 +4745,7 @@ export function useSwiggyChat(): UseSwiggyChat {
       const today = new Date().toLocaleDateString('en-CA', { timeZone: 'Asia/Kolkata' });
       const stamp = Date.now();
       const assistantId = `do-slots-${stamp}`;
+      if (!opts?.planPick) requestPickerOpen(assistantId); // the user tapped this restaurant: open its slot popup
       setMessages((prev) => [
         ...prev,
         {
@@ -4933,6 +4934,7 @@ export function useSwiggyChat(): UseSwiggyChat {
   // {eventId, venueId}) with the same coordinates the event was found with.
   const openScenesShows = useCallback((event: ScenesEvent, opts?: { autoPick?: boolean; planIntent?: string; planPick?: PlanPickResolver }) => {
     const id = `sc-shows-${event.id}-${Date.now()}`;
+    if (!opts?.planPick) requestPickerOpen(id); // the user tapped this event: open its ticket popup
     // the AI read runs once the picker has loaded its venue listing
     pickerReadRef.current.add(id);
     // one-tap "Best show": selected once the listing loads (Review → Confirm stays the user's)
