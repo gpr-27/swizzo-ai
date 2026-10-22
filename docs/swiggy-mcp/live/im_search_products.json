@@ -1,0 +1,229 @@
+{
+ "_source": "live MCP call 2026-10-22 (structuredContent as returned; long arrays trimmed, values unchanged)",
+ "args": {
+  "query": "paneer",
+  "addressId": "d1k9ctrdq1ocsktt0090__AMXrgASg728rGDWKq4_ky_"
+ },
+ "structuredContent": {
+  "nextOffset": "1",
+  "products": [
+   {
+    "displayName": "Milky Mist High Protein Low Fat Paneer",
+    "brand": "Milky Mist",
+    "inStock": true,
+    "isAvail": true,
+    "variations": [
+     {
+      "spinId": "J4H6T336HN",
+      "skuId": "ZV4NL7OTTR",
+      "quantityDescription": "200 g x 2",
+      "displayName": "Milky Mist High Protein Low Fat Paneer",
+      "brandName": "Milky Mist",
+      "price": {
+       "mrp": 330,
+       "offerPrice": 202,
+       "unitLevelPrice": "50.5/100 g"
+      },
+      "isInStockAndAvailable": true,
+      "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/NI_CATALOG/IMAGES/ciw/2025/12/17/831cd425-ad9d-430b-89cf-123ce72658ac_3VJIVWSGN3_MN_17122025.png",
+      "rating": {
+       "value": "4.4",
+       "count": "35.2k"
+      },
+      "sla": {
+       "value": "15",
+       "unit": "MINS"
+      },
+      "vegClassifier": "VEG_CLASSIFIER_INVALID",
+      "maxQuantity": 3,
+      "maxQuantityMessage": "Only 3 unit(s) of this item can be added per order."
+     },
+     {
+      "spinId": "3VJIVWSGN3",
+      "skuId": "SNKQT0DI09",
+      "quantityDescription": "200 g",
+      "displayName": "Milky Mist High Protein Low Fat Paneer",
+      "brandName": "Milky Mist",
+      "price": {
+       "mrp": 165,
+       "offerPrice": 129,
+       "unitLevelPrice": "64.5/100 g"
+      },
+      "isInStockAndAvailable": true,
+      "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/NI_CATALOG/IMAGES/ciw/2025/12/17/831cd425-ad9d-430b-89cf-123ce72658ac_3VJIVWSGN3_MN_17122025.png",
+      "rating": {
+       "value": "4.4",
+       "count": "35.2k"
+      },
+      "sla": {
+       "value": "15",
+       "unit": "MINS"
+      },
+      "vegClassifier": "VEG_CLASSIFIER_INVALID",
+      "maxQuantity": 6,
+      "maxQuantityMessage": "Only 6 unit(s) of this item can be added per order."
+     }
+    ],
+    "productId": "VTU7V6QIUL",
+    "parentProductId": "EDJPQ3TQUN",
+    "isPromoted": false,
+    "badges": [
+     {
+      "type": "BADGE_TYPE_PREVIOUSLY_BOUGHT",
+      "text": "Previously Bought",
+      "backgroundColor": "#262626"
+     }
+    ]
+   },
+   {
+    "displayName": "Epigamia High Protein Paneer",
+    "brand": "Epigamia",
+    "inStock": true,
+    "isAvail": true,
+    "variations": [
+     {
+      "spinId": "V38SFXK99P",
+      "skuId": "562RPYL8OS",
+      "quantityDescription": "200 g",
+      "displayName": "Epigamia High Protein Paneer",
+      "brandName": "Epigamia",
+      "price": {
+       "mrp": 250,
+       "offerPrice": 140,
+       "unitLevelPrice": "70/100 g"
+      },
+      "isInStockAndAvailable": true,
+      "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/NI_CATALOG/IMAGES/ciw/2026/2/18/afa636f2-4969-4319-a739-c1e2ea4d82a9_NPI-099468 _1_20260218_130252.png",
+      "rating": {
+       "value": "4.3",
+       "count": "3.1k"
+      },
+      "sla": {
+       "value": "15",
+       "unit": "MINS"
+      },
+      "vegClassifier": "VEG_CLASSIFIER_INVALID",
+      "maxQuantity": 5,
+      "maxQuantityMessage": "That’s all we have in stock at the moment!"
+     }
+    ],
+    "productId": "OG8117G9Z4",
+    "parentProductId": "J1DEYWIW1Q",
+    "isPromoted": false,
+    "badges": [
+     {
+      "type": "BADGE_TYPE_INSTA_UPGRADE",
+      "text": "Switch",
+      "backgroundColor": "#002E99"
+     }
+    ]
+   },
+   {
+    "displayName": "Amul Fresh Paneer",
+    "brand": "Amul",
+    "inStock": true,
+    "isAvail": true,
+    "variations": [
+     {
+      "spinId": "KHSF7TL2EE",
+      "skuId": "H9OYWZ1GS8",
+      "quantityDescription": "200 g x 2",
+      "displayName": "Amul Fresh Paneer",
+      "brandName": "Amul",
+      "price": {
+       "mrp": 210,
+       "offerPrice": 210,
+       "unitLevelPrice": "52.5/100 g"
+      },
+      "isInStockAndAvailable": true,
+      "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/NI_CATALOG/IMAGES/CIW/2026/8/8/de2e7a8d-4721-4d54-bb37-d1dc8a98a1a1_2844_1.png",
+      "rating": {
+       "value": "4.5",
+       "count": "178.7k"
+      },
+      "sla": {
+       "value": "15",
+       "unit": "MINS"
+      },
+      "vegClassifier": "VEG_CLASSIFIER_INVALID",
+      "maxQuantity": 3,
+      "maxQuantityMessage": "Only 3 unit(s) of this item can be added per order."
+     },
+     {
+      "spinId": "2C6V5PBANE",
+      "skuId": "KJTUWQ60C0",
+      "quantityDescription": "200 g",
+      "displayName": "Amul Fresh Paneer",
+      "brandName": "Amul",
+      "price": {
+       "mrp": 105,
+       "offerPrice": 105,
+       "unitLevelPrice": "52.5/100 g"
+      },
+      "isInStockAndAvailable": true,
+      "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/NI_CATALOG/IMAGES/CIW/2026/8/8/de2e7a8d-4721-4d54-bb37-d1dc8a98a1a1_2844_1.png",
+      "rating": {
+       "value": "4.5",
+       "count": "178.7k"
+      },
+      "sla": {
+       "value": "15",
+       "unit": "MINS"
+      },
+      "vegClassifier": "VEG_CLASSIFIER_INVALID",
+      "maxQuantity": 6,
+      "maxQuantityMessage": "Only 6 unit(s) of this item can be added per order."
+     }
+    ],
+    "productId": "IX8H30PL2E",
+    "parentProductId": "4IP9IG1X1L",
+    "isPromoted": false
+   }
+  ],
+  "similarProducts": [
+   {
+    "displayName": "Nandini Curd",
+    "brand": "Nandini",
+    "inStock": true,
+    "isAvail": true,
+    "variations": [
+     {
+      "spinId": "YRFFPQOT2G",
+      "skuId": "22TFPY56HY",
+      "quantityDescription": "500 g",
+      "displayName": "Nandini Curd",
+      "brandName": "Nandini",
+      "price": {
+       "mrp": 28,
+       "offerPrice": 28,
+       "unitLevelPrice": "5.6/100 g"
+      },
+      "isInStockAndAvailable": true,
+      "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/NI_CATALOG/IMAGES/ciw/2025/12/17/21404d65-3d9a-470e-96bf-5fb54a163fc0_PAYA6JI9LP_MN_17122025.png",
+      "rating": {
+       "value": "4.5",
+       "count": "124.4k"
+      },
+      "sla": {
+       "value": "15",
+       "unit": "MINS"
+      },
+      "vegClassifier": "VEG_CLASSIFIER_INVALID",
+      "maxQuantity": 6,
+      "maxQuantityMessage": "Only 6 unit(s) of this item can be added per order."
+     }
+    ],
+    "productId": "Y38RYIIHFC",
+    "parentProductId": "9X78DCV7SZ",
+    "isPromoted": false,
+    "badges": [
+     {
+      "type": "BADGE_TYPE_PREVIOUSLY_BOUGHT",
+      "text": "Previously Bought",
+      "backgroundColor": "#262626"
+     }
+    ]
+   }
+  ]
+ }
+}

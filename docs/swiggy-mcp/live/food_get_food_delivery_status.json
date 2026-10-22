@@ -1,0 +1,16 @@
+{
+ "_source": "live MCP call 2026-10-22 (structuredContent as returned; long arrays trimmed, values unchanged)",
+ "args": {
+  "orderId": "250940466155091"
+ },
+ "structuredContent": {
+  "orderId": "250940466155091",
+  "deliveryBy": null,
+  "serverNow": 1792671136540,
+  "cancelled": false,
+  "delivered": true,
+  "statusText": "Delivered",
+  "pollIntervalSec": 45,
+  "trackUrl": "https://www.swiggy.com/track-order/250940466155091"
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "_source": "live MCP call 2026-10-22 (structuredContent as returned; long arrays trimmed, values unchanged)",
+ "args": {
+  "query": "KFC",
+  "addressId": "d1k9ctrdq1ocsktt0090__AMXrgASg728rGDWKq4_ky_"
+ },
+ "structuredContent": {
+  "restaurants": [
+   {
+    "id": "693653",
+    "name": "KFC",
+    "cuisines": [
+     "Burgers",
+     "Fast Food",
+     "Rolls & Wraps"
+    ],
+    "avgRating": 4,
+    "totalRatings": "5.2K+",
+    "costForTwo": "₹400 for two",
+    "areaName": "HAL 2nd stage",
+    "distanceKm": 1.2,
+    "deliveryTimeMinutes": 33,
+    "deliveryTimeRange": "30-35 MINS",
+    "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/RX_THUMBNAIL/IMAGES/VENDOR/2026/7/1/144c2abf-ea2d-4aae-b0a5-f705c012cda2_693653.JPG",
+    "availabilityStatus": "OPEN"
+   },
+   {
+    "id": "1286",
+    "name": "Leon's - Burgers & Wings (Leon Grill) (Ad)",
+    "cuisines": [
+     "American",
+     "Snacks",
+     "Turkish",
+     "Portuguese",
+     "Continental"
+    ],
+    "avgRating": 4.3,
+    "totalRatings": "179K+",
+    "costForTwo": "₹300 for two",
+    "areaName": "Jeevan Bhima Nagar",
+    "distanceKm": 0.7,
+    "deliveryTimeMinutes": 25,
+    "deliveryTimeRange": "20-25 MINS",
+    "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/RX_THUMBNAIL/IMAGES/VENDOR/2024/11/14/42be0ca8-3504-49bf-bc18-e293252702a7_1286.jpg",
+    "availabilityStatus": "OPEN"
+   },
+   {
+    "id": "23680",
+    "name": "McDonald's",
+    "cuisines": [
+     "Burgers",
+     "Beverages",
+     "Cafe",
+     "Desserts"
+    ],
+    "avgRating": 4.3,
+    "totalRatings": "51K+",
+    "costForTwo": "₹400 for two",
+    "areaName": "KempFort Total Mall",
+    "distanceKm": 2.1,
+    "deliveryTimeMinutes": 31,
+    "deliveryTimeRange": "25-30 MINS",
+    "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/RX_THUMBNAIL/IMAGES/VENDOR/2026/6/18/fb86053e-a7b7-4023-b62f-3bba3d786457_23680.JPG",
+    "availabilityStatus": "OPEN"
+   }
+  ],
+  "dishes": [],
+  "total": 10,
+  "totalRestaurants": 23,
+  "totalDishes": 0,
+  "query": "KFC",
+  "hasMore": true,
+  "nextOffset": 10
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "_source": "live MCP call 2026-10-22 (structuredContent as returned; long arrays trimmed, values unchanged)",
+ "args": {
+  "query": "paneer biryani",
+  "addressId": "d1k9ctrdq1ocsktt0090__AMXrgASg728rGDWKq4_ky_"
+ },
+ "structuredContent": {
+  "items": [
+   {
+    "name": "Paneer Hyderabadi Biryani",
+    "price": 299,
+    "isVeg": true,
+    "menu_item_id": "85018582",
+    "inStock": 1,
+    "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/tpw4aky5jxzxj7qfklg5",
+    "restaurant_id": "131114",
+    "restaurant_name": "Andhra Gunpowder",
+    "rating": "4.3",
+    "hasAddons": true
+   },
+   {
+    "name": "Paneer Tikka Dum Biryani",
+    "price": 269,
+    "isVeg": true,
+    "menu_item_id": "194018667",
+    "inStock": 1,
+    "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/FOOD_CATALOG/IMAGES/CMS/2025/9/23/f1ea9175-7110-464a-ae9f-040efe8ad7a5_6acee193-d88a-48ba-9848-e38e8d778623.jpg",
+    "restaurant_id": "1236719",
+    "restaurant_name": "1881 Dum House: Lucknow's Legacy",
+    "rating": "4.4",
+    "hasAddons": true
+   },
+   {
+    "name": "Paneer Donne Biryani",
+    "price": 259,
+    "isVeg": true,
+    "menu_item_id": "207111339",
+    "inStock": 1,
+    "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/FOOD_CATALOG/IMAGES/CMS/2026/8/6/23b073e9-105e-4311-b273-4f5e2885b0dc_0c1c4e61-33d3-4af3-b093-5a300fcf0813.png_compressed",
+    "restaurant_id": "759932",
+    "restaurant_name": "Namo Andhra",
+    "rating": "4.0",
+    "hasAddons": true
+   },
+   {
+    "name": "Paneer Biryani",
+    "price": 380,
+    "isVeg": true,
+    "menu_item_id": "86408296",
+    "inStock": 1,
+    "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/FOOD_CATALOG/IMAGES/CMS/2025/6/6/a380b487-e336-41fa-966a-2b1490e475c9_49f5550e-15a1-42cc-96f9-46e416891bff.jpg",
+    "restaurant_id": "271",
+    "restaurant_name": "Meghana Foods",
+    "rating": "4.5",
+    "hasAddons": true
+   }
+  ],
+  "total": 10,
+  "query": "paneer biryani",
+  "hasMore": true,
+  "nextOffset": 10,
+  "totalItems": 422
+ }
+}

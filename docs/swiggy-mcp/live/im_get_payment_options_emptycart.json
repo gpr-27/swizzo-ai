@@ -1,0 +1,11 @@
+{
+ "_source": "live MCP call 2026-10-22 (structuredContent as returned, empty cart)",
+ "args": {},
+ "structuredContent": {
+  "allMethods": [],
+  "agenticPaymentEligible": false,
+  "paymentAmount": null,
+  "placeOrderToolName": "checkout",
+  "imWidgetV2Eligible": true
+ }
+}

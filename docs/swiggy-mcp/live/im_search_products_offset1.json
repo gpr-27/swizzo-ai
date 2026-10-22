@@ -1,0 +1,147 @@
+{
+ "_source": "live MCP call 2026-10-22 (structuredContent as returned; long arrays trimmed, values unchanged)",
+ "args": {
+  "query": "lays chips",
+  "addressId": "d1k9ctrdq1ocsktt0090__AMXrgASg728rGDWKq4_ky_",
+  "offset": 1
+ },
+ "structuredContent": {
+  "nextOffset": "2",
+  "products": [
+   {
+    "displayName": "Lay's (India's Magic Masala) Crunchy Potato Chips",
+    "brand": "Lay's",
+    "inStock": true,
+    "isAvail": true,
+    "variations": [
+     {
+      "spinId": "K7KLQQBA39",
+      "skuId": "ZV0ZQHCI7X",
+      "quantityDescription": "52.9 g x 2",
+      "displayName": "Lay's (India's Magic Masala) Crunchy Potato Chips",
+      "brandName": "Lay's",
+      "price": {
+       "mrp": 50,
+       "offerPrice": 33,
+       "unitLevelPrice": "31.2/100 g"
+      },
+      "isInStockAndAvailable": true,
+      "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/NI_CATALOG/IMAGES/CIW/2026/4/24/e23ed9c7-98dd-4b15-bca2-6fbf8b34d4c4_673_1.png",
+      "rating": {
+       "value": "4.5",
+       "count": "213.4k"
+      },
+      "sla": {
+       "value": "15",
+       "unit": "MINS"
+      },
+      "vegClassifier": "VEG_CLASSIFIER_INVALID",
+      "maxQuantity": 20,
+      "maxQuantityMessage": "Only 20 unit(s) of this item can be added per order."
+     },
+     {
+      "spinId": "S9AE4DAA9O",
+      "skuId": "G578L0O0Y8",
+      "quantityDescription": "52.9 g",
+      "displayName": "Lay's (India's Magic Masala) Crunchy Potato Chips",
+      "brandName": "Lay's",
+      "price": {
+       "mrp": 25,
+       "offerPrice": 19,
+       "unitLevelPrice": "35.9/100 g"
+      },
+      "isInStockAndAvailable": true,
+      "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/NI_CATALOG/IMAGES/CIW/2026/4/24/e23ed9c7-98dd-4b15-bca2-6fbf8b34d4c4_673_1.png",
+      "rating": {
+       "value": "4.5",
+       "count": "213.4k"
+      },
+      "sla": {
+       "value": "15",
+       "unit": "MINS"
+      },
+      "vegClassifier": "VEG_CLASSIFIER_INVALID",
+      "maxQuantity": 6,
+      "maxQuantityMessage": "Only 6 unit(s) of this item can be added per order."
+     }
+    ],
+    "productId": "OVACG3I2JD",
+    "parentProductId": "D0UEKGHW2K",
+    "isPromoted": false,
+    "badges": [
+     {
+      "type": "BADGE_TYPE_BEST_SELLER",
+      "text": "Bestseller",
+      "backgroundColor": "#238BF4"
+     }
+    ]
+   },
+   {
+    "displayName": "Crax Biggies Swiss Cheese Puff Snacks",
+    "brand": "Crax",
+    "inStock": true,
+    "isAvail": true,
+    "variations": [
+     {
+      "spinId": "XX5MM3MIP4",
+      "skuId": "JTW9226HSZ",
+      "quantityDescription": "65 g",
+      "displayName": "Crax Biggies Swiss Cheese Puff Snacks",
+      "brandName": "Crax",
+      "price": {
+       "mrp": 60,
+       "offerPrice": 29,
+       "unitLevelPrice": "44.6/100 g"
+      },
+      "isInStockAndAvailable": true,
+      "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/NI_CATALOG/IMAGES/ciw/2025/12/17/e0b904cc-5ab2-4926-84cc-64d286c2b18c_XX5MM3MIP4_MN_17122025.png",
+      "rating": {
+       "value": "4.5",
+       "count": "19.3k"
+      },
+      "sla": {
+       "value": "15",
+       "unit": "MINS"
+      },
+      "vegClassifier": "VEG_CLASSIFIER_INVALID",
+      "maxQuantity": 1,
+      "maxQuantityMessage": "That’s all we have in stock at the moment!"
+     },
+     {
+      "spinId": "CTWP5U7ON9",
+      "skuId": "1Y39HNB2I2",
+      "quantityDescription": "65 g x 3",
+      "displayName": "Crax Biggies Swiss Cheese Puff Snacks",
+      "brandName": "Crax",
+      "price": {
+       "mrp": 180,
+       "offerPrice": 93,
+       "unitLevelPrice": "47.7/100 g"
+      },
+      "isInStockAndAvailable": true,
+      "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/NI_CATALOG/IMAGES/ciw/2025/12/17/e0b904cc-5ab2-4926-84cc-64d286c2b18c_XX5MM3MIP4_MN_17122025.png",
+      "rating": {
+       "value": "4.5",
+       "count": "19.3k"
+      },
+      "sla": {
+       "value": "15",
+       "unit": "MINS"
+      },
+      "vegClassifier": "VEG_CLASSIFIER_INVALID"
+     }
+    ],
+    "productId": "TLZYINEUBK",
+    "parentProductId": "8A6A6TCX9Y",
+    "isPromoted": true,
+    "badges": [
+     {
+      "type": "BADGE_TYPE_AD",
+      "text": "Ad",
+      "backgroundColor": "rgba(2,6,12,0.05)"
+     }
+    ]
+   }
+  ]
+ }
+}

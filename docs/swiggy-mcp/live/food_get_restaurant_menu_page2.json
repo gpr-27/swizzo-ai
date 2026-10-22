@@ -1,0 +1,88 @@
+{
+ "_source": "live MCP call 2026-10-22 (structuredContent as returned; long arrays trimmed, values unchanged)",
+ "args": {
+  "restaurantId": "41795",
+  "addressId": "d1k9ctrdq1ocsktt0090__AMXrgASg728rGDWKq4_ky_",
+  "pageSize": 3,
+  "page": 2
+ },
+ "structuredContent": {
+  "restaurant": {
+   "id": "41795",
+   "name": "Behrouz Biryani",
+   "city": "Bangalore",
+   "areaName": "New Tippasandra",
+   "cuisines": [
+    "Biryani",
+    "North Indian"
+   ],
+   "avgRating": 4.1,
+   "avgRatingString": "4.1",
+   "totalRatingsString": "5.3K+ ratings",
+   "costForTwoMessage": "₹500 for two",
+   "isOpen": true,
+   "deliveryTime": 27,
+   "slaString": "20-25 MINS",
+   "address": "Maruti Sankeerna, Hal 3rd stage, Puttapa layout, New Thippasandra, Main Road,, Bengaluru: 560075",
+   "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/a4ffed13eb197c6df43dfe1c756560e5"
+  },
+  "categories": [
+   {
+    "title": "Dastaan e Kebabs",
+    "categoryId": "40057453",
+    "items": [
+     {
+      "id": "128141481",
+      "name": "Murgh Seekh Kebab",
+      "price": 215,
+      "inStock": 1,
+      "isVeg": false,
+      "isBestseller": true,
+      "rating": "4.3",
+      "hasVariants": true,
+      "hasAddons": true,
+      "description": "Contains milk, egg, gluten (wheat), soybean and tree nuts. One of the most revered kebab delicacies,...",
+      "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/FOOD_CATALOG/IMAGES/CMS/2025/4/24/7d467d36-7566-4ca6-bcf2-01cba33a7b28_b460e207-e014-42f5-a552-2afe94eff363.jpeg"
+     },
+     {
+      "id": "128190034",
+      "name": "Aloo Chaap Tikki (3 Pcs)",
+      "price": 139,
+      "inStock": 1,
+      "isVeg": true,
+      "hasVariants": false,
+      "hasAddons": false,
+      "description": "Contains milk, peanut and tree nuts. A street favourite recipe that now resides in our royal kitchen...",
+      "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/FOOD_CATALOG/IMAGES/CMS/2025/4/23/4327745d-7075-4b07-926b-4cfb2d9f7fdb_c39633b2-26c7-4d6a-b0b0-852af4091fc2.jpeg"
+     }
+    ],
+    "totalItems": 9,
+    "hasMoreItems": false
+   },
+   {
+    "title": "Biryani with Thums Up Combos",
+    "categoryId": "72517507",
+    "items": [
+     {
+      "id": "195354053",
+      "name": "Dum Gosht Biryani with Thums Up",
+      "price": 639,
+      "inStock": 1,
+      "isVeg": false,
+      "rating": "5.0",
+      "hasVariants": false,
+      "hasAddons": true,
+      "description": "Succulent mutton slow-cooked on dum with long-grain basmati, rich spices and royal flavours. Comes w...",
+      "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/FOOD_CATALOG/IMAGES/CMS/2026/2/24/61de472f-481a-4954-a382-6852ea772286_146b82bd-0094-4499-8059-c8bd094811ba.jpeg"
+     }
+    ],
+    "totalItems": 13,
+    "hasMoreItems": true
+   }
+  ],
+  "totalCategories": 8,
+  "page": 2,
+  "pageSize": 3,
+  "hasMore": true
+ }
+}

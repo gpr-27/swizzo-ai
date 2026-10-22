@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/mcp.json",
+  "_comment": "Swiggy Builders Club MCP servers. Remote, streamable-HTTP, OAuth 2.1 + PKCE (issuer https://mcp.swiggy.com/auth, dynamic client registration supported). Requires Builders Club access (apply at https://mcp.swiggy.com/builders). After adding, run /mcp in Claude Code (or restart Claude Desktop) to trigger the OAuth login flow per server. Access tokens last ~5 days; refresh_token grant is advertised.",
+  "mcpServers": {
+    "swiggy-food": {
+      "type": "http",
+      "url": "https://mcp.swiggy.com/food"
+    },
+    "swiggy-instamart": {
+      "type": "http",
+      "url": "https://mcp.swiggy.com/im"
+    },
+    "swiggy-dineout": {
+      "type": "http",
+      "url": "https://mcp.swiggy.com/dineout"
+    },
+    "swiggy-scenes": {
+      "type": "http",
+      "url": "https://mcp.swiggy.com/scenes"
+    }
+  }
+}

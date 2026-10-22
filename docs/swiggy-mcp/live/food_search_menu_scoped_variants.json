@@ -1,0 +1,160 @@
+{
+ "_source": "live MCP call 2026-10-22 (structuredContent as returned; long arrays trimmed, values unchanged)",
+ "args": {
+  "query": "biryani",
+  "addressId": "d1k9ctrdq1ocsktt0090__AMXrgASg728rGDWKq4_ky_",
+  "restaurantIdOfAddedItem": "41795"
+ },
+ "structuredContent": {
+  "items": [
+   {
+    "name": "Lucknowi Lazeez Bhuna Murgh Biryani (Dum Chicken Biryani)(Mild Spicy)",
+    "price": 369,
+    "menu_item_id": "193068246",
+    "inStock": 1,
+    "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/FOOD_CATALOG/IMAGES/CMS/2026/2/5/19937c27-00dd-49b7-8750-d50ed83b4c42_bd98d841-c99f-4dec-8034-77775a34254f.jpeg",
+    "rating": "4.1",
+    "totalRatings": "36",
+    "hasVariants": true,
+    "hasAddons": true,
+    "variantsV2": [
+     {
+      "groupId": "71345439",
+      "name": "Select Portion Size",
+      "variations": [
+       {
+        "name": "Serves 1 (Light Eater) - Miniyat",
+        "id": "211720438",
+        "inStock": 1,
+        "default": 1
+       },
+       {
+        "name": "Serves 1 - Shahi",
+        "price": 60,
+        "id": "211720439",
+        "inStock": 1
+       },
+       {
+        "name": "Serves 2 - Shaan",
+        "price": 430,
+        "id": "211720440",
+        "inStock": 1
+       },
+       {
+        "name": "Serves 4-5 - Alishaan",
+        "price": 1080,
+        "id": "211720441",
+        "inStock": 1
+       }
+      ]
+     }
+    ],
+    "addons": [
+     {
+      "groupId": "271731065",
+      "groupName": "Choose Accompaniment-.",
+      "choices": [
+       {
+        "id": "140218686",
+        "name": "Mint Raita & Gulab Jamun",
+        "price": 0
+       },
+       {
+        "id": "140218691",
+        "name": "Only Gulab Jamun",
+        "price": 0
+       },
+       {
+        "id": "140218689",
+        "name": "Only Mint Raita",
+        "price": 0
+       }
+      ],
+      "minAddons": 1,
+      "maxAddons": 1,
+      "maxFreeAddons": -1
+     },
+     {
+      "groupId": "272686259",
+      "groupName": "Add an Egg",
+      "choices": [
+       {
+        "id": "144254115",
+        "name": "Egg (1 Piece)",
+        "price": 29
+       }
+      ],
+      "maxAddons": 1,
+      "maxFreeAddons": -1
+     },
+     {
+      "groupId": "271731077",
+      "groupName": "Add- Dessert & Beverage",
+      "choices": [
+       {
+        "id": "127023665",
+        "name": "Lemon Soda (250 mL)",
+        "price": 59
+       },
+       {
+        "id": "115132670",
+        "name": "Coca-Cola Bottle (475 ml)",
+        "price": 66.5
+       }
+      ],
+      "maxAddons": 10,
+      "maxFreeAddons": -1
+     }
+    ]
+   },
+   {
+    "name": "Lucknowi Zaikedaar Paneer Biryani (Paneer Dum Biryani)(Mild Spicy)",
+    "price": 369,
+    "isVeg": true,
+    "menu_item_id": "193068248",
+    "inStock": 1,
+    "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/FOOD_CATALOG/IMAGES/CMS/2026/2/2/1750e6f3-e164-4d33-a859-cc1485f4c02e_b7bb6095-677e-477f-bb27-c26b02e7604b.jpeg",
+    "rating": "4.8",
+    "totalRatings": "7",
+    "hasVariants": true,
+    "hasAddons": true,
+    "variantsV2": [
+     {
+      "groupId": "71345442",
+      "name": "Select Portion Size",
+      "variations": [
+       {
+        "name": "Serves 1 (Light Eater) - Miniyat",
+        "id": "211720450",
+        "inStock": 1,
+        "default": 1
+       },
+       {
+        "name": "Serves 2 - Shaan",
+        "price": 350,
+        "id": "211720452",
+        "inStock": 1
+       }
+      ]
+     }
+    ],
+    "addons": []
+   },
+   {
+    "name": "Lazeez Bhuna Murgh Biryani (Serves 1) with Chicken Haleem (300 Gm)",
+    "price": 569,
+    "menu_item_id": "205036503",
+    "inStock": 1,
+    "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/FOOD_CATALOG/IMAGES/CMS/2026/7/10/faf8b44e-dd6b-42e5-b1d4-96a6434ea27a_8e6a67ca-bece-474a-a1cf-33372f34b3e3.jpeg",
+    "hasVariants": false,
+    "hasAddons": false
+   }
+  ],
+  "total": 10,
+  "query": "biryani",
+  "restaurantIdOfAddedItem": "41795",
+  "hasMore": true,
+  "nextOffset": 10,
+  "totalItems": 137
+ }
+}

@@ -1,0 +1,245 @@
+{
+ "_source": "live MCP call 2026-10-22 (structuredContent as returned; long arrays trimmed, values unchanged)",
+ "args": {
+  "query": "eggs",
+  "addressId": "d1k9ctrdq1ocsktt0090__AMXrgASg728rGDWKq4_ky_"
+ },
+ "structuredContent": {
+  "nextOffset": "1",
+  "products": [
+   {
+    "displayName": "Fresh Eggs White eggs",
+    "brand": "Fresh Eggs",
+    "inStock": true,
+    "isAvail": true,
+    "variations": [
+     {
+      "spinId": "PQO3B4KKNO",
+      "skuId": "545TG3Y78D",
+      "quantityDescription": "12 Pieces x 2",
+      "displayName": "Fresh Eggs White eggs",
+      "brandName": "Fresh Eggs",
+      "price": {
+       "mrp": 290,
+       "offerPrice": 208,
+       "unitLevelPrice": "8.7/piece"
+      },
+      "isInStockAndAvailable": true,
+      "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/NI_CATALOG/IMAGES/ciw/2025/12/17/daa93b57-6cf8-40c1-bee2-78b2ffe5cc75_UCX9XSR1L6_MN_16122025.png",
+      "rating": {
+       "value": "4.4",
+       "count": "140.4k"
+      },
+      "sla": {
+       "value": "14",
+       "unit": "MINS"
+      },
+      "vegClassifier": "VEG_CLASSIFIER_INVALID",
+      "maxQuantity": 3,
+      "maxQuantityMessage": "Only 3 unit(s) of this item can be added per order."
+     },
+     {
+      "spinId": "UCX9XSR1L6",
+      "skuId": "78I75D6VOY",
+      "quantityDescription": "12 Pieces",
+      "displayName": "Fresh Eggs White eggs",
+      "brandName": "Fresh Eggs",
+      "price": {
+       "mrp": 145,
+       "offerPrice": 104,
+       "unitLevelPrice": "8.7/piece"
+      },
+      "isInStockAndAvailable": true,
+      "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/NI_CATALOG/IMAGES/ciw/2025/12/17/daa93b57-6cf8-40c1-bee2-78b2ffe5cc75_UCX9XSR1L6_MN_16122025.png",
+      "rating": {
+       "value": "4.4",
+       "count": "140.4k"
+      },
+      "sla": {
+       "value": "14",
+       "unit": "MINS"
+      },
+      "vegClassifier": "VEG_CLASSIFIER_INVALID",
+      "maxQuantity": 6,
+      "maxQuantityMessage": "Only 6 unit(s) of this item can be added per order."
+     }
+    ],
+    "productId": "KH3R7OZA65",
+    "parentProductId": "P3Z8MLP18R",
+    "isPromoted": false,
+    "badges": [
+     {
+      "type": "BADGE_TYPE_BEST_SELLER",
+      "text": "Bestseller",
+      "backgroundColor": "#238BF4"
+     }
+    ]
+   },
+   {
+    "displayName": "Eggoz White Farm Fresh Eggs",
+    "brand": "Eggoz",
+    "inStock": true,
+    "isAvail": true,
+    "variations": [
+     {
+      "spinId": "RM72TQOAQW",
+      "skuId": "QT07TNQ0PP",
+      "quantityDescription": "10 Pieces",
+      "displayName": "Eggoz White Farm Fresh Eggs",
+      "brandName": "Eggoz",
+      "price": {
+       "mrp": 165,
+       "offerPrice": 139,
+       "unitLevelPrice": "13.9/piece"
+      },
+      "isInStockAndAvailable": true,
+      "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/NI_CATALOG/IMAGES/CIW/2026/3/27/71c77b35-7b43-418d-abce-44aad62dec5c_8176_1.png",
+      "rating": {
+       "value": "4.2",
+       "count": "21k"
+      },
+      "sla": {
+       "value": "14",
+       "unit": "MINS"
+      },
+      "vegClassifier": "VEG_CLASSIFIER_INVALID",
+      "maxQuantity": 6,
+      "maxQuantityMessage": "Only 6 unit(s) of this item can be added per order."
+     }
+    ],
+    "productId": "SICQKSPUC6",
+    "parentProductId": "K94I1K4BDW",
+    "isPromoted": true,
+    "badges": [
+     {
+      "type": "BADGE_TYPE_AD",
+      "text": "Ad",
+      "backgroundColor": "rgba(2,6,12,0.05)"
+     }
+    ]
+   },
+   {
+    "displayName": "Eggoz Protein Plus Eggs",
+    "brand": "Eggoz",
+    "inStock": true,
+    "isAvail": true,
+    "variations": [
+     {
+      "spinId": "G3AKD6NR8X",
+      "skuId": "UMX7T18XRT",
+      "quantityDescription": "10 Pieces",
+      "displayName": "Eggoz Protein Plus Eggs",
+      "brandName": "Eggoz",
+      "price": {
+       "mrp": 170,
+       "offerPrice": 139,
+       "unitLevelPrice": "13.9/piece"
+      },
+      "isInStockAndAvailable": true,
+      "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/NI_CATALOG/IMAGES/ciw/2026/5/7/e68425ec-ce37-4533-ac2d-f8f4d64bb6f0_2_MN_2bffd9b9-34af-404a-99ef-269d541a5cf4.jpg",
+      "rating": {
+       "value": "4.0",
+       "count": "288"
+      },
+      "sla": {
+       "value": "14",
+       "unit": "MINS"
+      },
+      "vegClassifier": "VEG_CLASSIFIER_INVALID",
+      "maxQuantity": 2,
+      "maxQuantityMessage": "That’s all we have in stock at the moment!"
+     }
+    ],
+    "productId": "BTPGJ543CZ",
+    "parentProductId": "WTDDQE7SWU",
+    "isPromoted": true,
+    "badges": [
+     {
+      "type": "BADGE_TYPE_INSTA_UPGRADE",
+      "text": "Switch",
+      "backgroundColor": "#002E99"
+     },
+     {
+      "type": "BADGE_TYPE_AD",
+      "text": "Ad",
+      "backgroundColor": "rgba(2,6,12,0.05)"
+     }
+    ]
+   },
+   {
+    "displayName": "Fresh Eggs White eggs",
+    "brand": "Fresh Eggs",
+    "inStock": true,
+    "isAvail": true,
+    "variations": [
+     {
+      "spinId": "Y1L77L4JLL",
+      "skuId": "Y7TV385S9J",
+      "quantityDescription": "6 Pieces",
+      "displayName": "Fresh Eggs White eggs",
+      "brandName": "Fresh Eggs",
+      "price": {
+       "mrp": 75,
+       "offerPrice": 52,
+       "unitLevelPrice": "8.7/piece"
+      },
+      "isInStockAndAvailable": true,
+      "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/NI_CATALOG/IMAGES/ciw/2025/12/17/e202dbc9-361e-484c-a0be-6bc713cb6112_Y1L77L4JLL_MN_17122025.png",
+      "rating": {
+       "value": "4.4",
+       "count": "87.9k"
+      },
+      "sla": {
+       "value": "14",
+       "unit": "MINS"
+      },
+      "vegClassifier": "VEG_CLASSIFIER_INVALID",
+      "maxQuantity": 12,
+      "maxQuantityMessage": "Only 12 unit(s) of this item can be added per order."
+     }
+    ],
+    "productId": "LXT7XHFKZ3",
+    "parentProductId": "6238P1CQ57",
+    "isPromoted": false
+   }
+  ],
+  "similarProducts": [
+   {
+    "displayName": "Hatsun Curd",
+    "brand": "Hatsun",
+    "inStock": true,
+    "isAvail": true,
+    "variations": [
+     {
+      "spinId": "GZ2GYC77DM",
+      "skuId": "FBK5BU7PBN",
+      "quantityDescription": "500 g",
+      "displayName": "Hatsun Curd",
+      "brandName": "Hatsun",
+      "price": {
+       "mrp": 38,
+       "offerPrice": 38,
+       "unitLevelPrice": "7.6/100 g"
+      },
+      "isInStockAndAvailable": true,
+      "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/NI_CATALOG/IMAGES/ciw/2025/12/17/22823919-b4f6-4158-b97b-45b44af7a024_GZ2GYC77DM_MN_17122025.png",
+      "rating": {
+       "value": "4.6",
+       "count": "144.7k"
+      },
+      "sla": {
+       "value": "14",
+       "unit": "MINS"
+      },
+      "vegClassifier": "VEG_CLASSIFIER_INVALID",
+      "maxQuantity": 12,
+      "maxQuantityMessage": "Only 12 unit(s) of this item can be added per order."
+     }
+    ],
+    "productId": "F3JFQ8JW9N",
+    "parentProductId": "0XF0HCG0A3",
+    "isPromoted": false
+   }
+  ]
+ }
+}

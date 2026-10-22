@@ -1,0 +1,116 @@
+{
+ "_source": "live MCP call 2026-10-22 (structuredContent as returned; long arrays trimmed, values unchanged)",
+ "args": {
+  "query": "something for a headache",
+  "addressId": "d1k9ctrdq1ocsktt0090__AMXrgASg728rGDWKq4_ky_"
+ },
+ "structuredContent": {
+  "nextOffset": "1",
+  "products": [
+   {
+    "displayName": "New Saridon | Headache & Pain Relief | Paracetamol",
+    "brand": "Saridon",
+    "inStock": true,
+    "isAvail": true,
+    "variations": [
+     {
+      "spinId": "2CRTBKYVXS",
+      "skuId": "C3ZLMD2R1I",
+      "quantityDescription": "10 pieces",
+      "displayName": "New Saridon | Headache & Pain Relief | Paracetamol",
+      "brandName": "Saridon",
+      "price": {
+       "mrp": 51,
+       "offerPrice": 51
+      },
+      "isInStockAndAvailable": true,
+      "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/NI_CATALOG/IMAGES/CIW/2024/10/10/09084d1d-0a49-4cd5-a34e-7e127aef8ef7_L56994_1.png",
+      "sla": {
+       "value": "16",
+       "unit": "MINS"
+      },
+      "vegClassifier": "VEG_CLASSIFIER_INVALID",
+      "maxQuantity": 3,
+      "maxQuantityMessage": "Only 3 unit(s) of this item can be added per order."
+     }
+    ],
+    "productId": "NO4I3ZK5I2",
+    "parentProductId": "2N5IK5TOYD",
+    "isPromoted": false
+   },
+   {
+    "displayName": "Imol Plus Tablet | Pain Relief | Paracetamol + Ibuprofen",
+    "brand": "Imol",
+    "inStock": true,
+    "isAvail": true,
+    "variations": [
+     {
+      "spinId": "3JFNZHFPI8",
+      "skuId": "6VRYHO29MY",
+      "quantityDescription": "10 numbers",
+      "displayName": "Imol Plus Tablet | Pain Relief | Paracetamol + Ibuprofen",
+      "brandName": "Imol",
+      "price": {
+       "mrp": 24,
+       "offerPrice": 24
+      },
+      "isInStockAndAvailable": true,
+      "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/NI_CATALOG/IMAGES/CIW/2025/4/21/0aaed13f-f556-4b4e-8e7d-83881d74253c_806094_1.png",
+      "sla": {
+       "value": "29",
+       "unit": "MINS"
+      },
+      "vegClassifier": "VEG_CLASSIFIER_INVALID",
+      "maxQuantity": 2,
+      "maxQuantityMessage": "That’s all we have in stock at the moment!"
+     }
+    ],
+    "productId": "JU3CVD5KFJ",
+    "parentProductId": "8Z3WZCK19P",
+    "isPromoted": false
+   },
+   {
+    "displayName": "Zandu Balm - For instant pain relief from cold, headache & body",
+    "brand": "Zandu",
+    "inStock": true,
+    "isAvail": true,
+    "variations": [
+     {
+      "spinId": "ND7TINUTX9",
+      "skuId": "ZZNY2UU6VG",
+      "quantityDescription": "10 ml",
+      "displayName": "Zandu Balm - For instant pain relief from cold, headache & body",
+      "brandName": "Zandu",
+      "price": {
+       "mrp": 61,
+       "offerPrice": 57
+      },
+      "isInStockAndAvailable": true,
+      "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/NI_CATALOG/IMAGES/ciw/2026/5/14/0d1c2431-68b3-4de7-85d0-682255a63d42_NPI-134329_1_20260514_122149.png",
+      "rating": {
+       "value": "4.4",
+       "count": "368"
+      },
+      "sla": {
+       "value": "15",
+       "unit": "MINS"
+      },
+      "vegClassifier": "VEG_CLASSIFIER_INVALID",
+      "maxQuantity": 5,
+      "maxQuantityMessage": "That’s all we have in stock at the moment!"
+     }
+    ],
+    "productId": "FLRHX24JRM",
+    "parentProductId": "YD36K091EI",
+    "isPromoted": false,
+    "badges": [
+     {
+      "type": "BADGE_TYPE_BEST_SELLER",
+      "text": "Bestseller",
+      "backgroundColor": "#238BF4"
+     }
+    ]
+   }
+  ]
+ }
+}

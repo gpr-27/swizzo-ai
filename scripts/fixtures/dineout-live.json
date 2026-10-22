@@ -1,0 +1,512 @@
+{
+ "_note": "structuredContent captured live 2026-10-22 via the swiggy-dineout MCP tools (image lists trimmed). Used by scripts/verify-dineout.ts.",
+ "render_koramangala": {
+  "args": {
+   "restaurantIds": [
+    "1373139",
+    "728469",
+    "693811",
+    "1075087"
+   ],
+   "searches": [
+    {
+     "query": "Koramangala",
+     "latitude": 12.9352,
+     "longitude": 77.6245
+    }
+   ]
+  },
+  "structuredContent": {
+   "restaurants": [
+    {
+     "id": "1373139",
+     "name": "QUARTER PETER",
+     "cuisine": [
+      "Bar Food",
+      "Multi Cuisine"
+     ],
+     "locality": "Koramangala",
+     "area": "Koramangala",
+     "rating": {
+      "value": "3.8",
+      "count": 202
+     },
+     "costForTwo": "₹1100 for two",
+     "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/DINEOUT_ALL_RESTAURANTS/IMAGES/RESTAURANT_IMAGE_SERVICE/2026/7/31/a8f47ba2-9b55-4b4a-ab8e-f97c1e8512a0_001b4b3eda2eb56cd4a421cdade6470f94e4e15b936fac44319b4fbefe4337279fd.PNG",
+     "distance": "1.4 km",
+     "highlights": [
+      "Alcohol served",
+      "Reservation available",
+      "SwiggyPay accepted"
+     ],
+     "offers": [
+      {
+       "offerTitle": "Flat 10% off",
+       "offerDescription": "Available today"
+      }
+     ],
+     "offerHeadline": {
+      "title": "Flat 10% off",
+      "kind": "deal",
+      "subtitle": "on pre-booking",
+      "subtext": "+5 offers",
+      "logoUrl": "https://dineout-media-assets.swiggy.com/swiggy/image/upload/dineout/new-rx-card/one_pre_booking.png",
+      "logoText": "ONE"
+     },
+     "bankOffers": [
+      {
+       "offerTitle": "Flat 10% off"
+      }
+     ],
+     "vendorHighlights": [
+      {
+       "type": "",
+       "text": "Free Beer"
+      },
+      {
+       "type": "",
+       "text": "Free drink"
+      },
+      {
+       "type": "",
+       "text": "Table booking"
+      }
+     ],
+     "availableDeals": []
+    },
+    {
+     "id": "728469",
+     "name": "The Pizza Bakery - Koramangala",
+     "cuisine": [
+      "Desserts",
+      ""
+     ],
+     "locality": "Koramangala",
+     "area": "Koramangala",
+     "rating": {
+      "value": "4.6",
+      "count": 1052
+     },
+     "costForTwo": "₹1500 for two",
+     "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/DINEOUT_ALL_RESTAURANTS/IMAGES/RESTAURANT_IMAGE_SERVICE/2025/10/21/4b67c609-7d8b-48f9-931e-2278f9aa0dda_Screenshot20251021145208520fd4c239064a0dace98592d94d0649.PNG",
+     "distance": "1.7 km",
+     "highlights": [
+      "Vegan food",
+      "Reservation available",
+      "Valet parking",
+      "Pet friendly",
+      "Smoking area",
+      "SwiggyPay accepted",
+      "Halal for meat"
+     ],
+     "offers": [
+      {
+       "offerTitle": "Flat 15% off",
+       "offerDescription": "Total bill"
+      }
+     ],
+     "offerHeadline": {
+      "title": "Flat 15% off",
+      "kind": "deal",
+      "subtitle": "on pre-booking",
+      "subtext": "+1 offer"
+     },
+     "bankOffers": [
+      {
+       "offerTitle": "Flat 15% off"
+      }
+     ],
+     "vendorHighlights": [
+      {
+       "type": "",
+       "text": "Table booking"
+      }
+     ],
+     "availableDeals": []
+    },
+    {
+     "id": "693811",
+     "name": "Yuki",
+     "cuisine": [
+      "Japanese",
+      "Asian"
+     ],
+     "locality": "Koramangala",
+     "area": "Emvee Capbiz, Koramangala",
+     "rating": {
+      "value": "4.5",
+      "count": 2450
+     },
+     "costForTwo": "₹1600 for two",
+     "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/v1679654732/b2069f734e4b1f8b16ca3916eb9c1ec6.webp",
+     "distance": "0.3 km",
+     "highlights": [
+      "Alcohol served",
+      "Reservation available",
+      "Parking available",
+      "Valet parking",
+      "Free wifi",
+      "Smoking area",
+      "SwiggyPay accepted"
+     ],
+     "offers": [],
+     "offerHeadline": {
+      "title": "Up to 10% off with bank offers",
+      "kind": "payment"
+     },
+     "bankOffers": [],
+     "vendorHighlights": [
+      {
+       "type": "",
+       "text": "Table booking"
+      }
+     ],
+     "availableDeals": []
+    },
+    {
+     "id": "1075087",
+     "name": "Brau Galie Micro Brewery & Pub",
+     "cuisine": [
+      "Bar Food",
+      "Asian"
+     ],
+     "locality": "Koramangala",
+     "area": "Koramangala",
+     "rating": {
+      "value": "--",
+      "count": 0
+     },
+     "costForTwo": "₹1000 for two",
+     "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/DINEOUT_ALL_RESTAURANTS/IMAGES/RESTAURANT_IMAGE_SERVICE/2025/9/17/91f7b87a-8a9b-4cc5-8d7c-99a63647ac8a_26be70dede7d432c8189b7334882033695ba1485150a4d8599f84f1bc7f961be.JPG",
+     "distance": "1.7 km",
+     "highlights": [
+      "Alcohol served",
+      "Reservation available",
+      "Parking available",
+      "Valet parking",
+      "Free wifi",
+      "Smoking area",
+      "SwiggyPay accepted"
+     ],
+     "offers": [
+      {
+       "offerTitle": "Flat 15% off",
+       "offerDescription": "Total bill"
+      }
+     ],
+     "offerHeadline": {
+      "title": "Flat 15% off",
+      "kind": "deal",
+      "subtitle": "on pre-booking",
+      "subtext": "+2 offers"
+     },
+     "bankOffers": [
+      {
+       "offerTitle": "Flat 15% off"
+      }
+     ],
+     "vendorHighlights": [
+      {
+       "type": "",
+       "text": "Table booking"
+      }
+     ],
+     "availableDeals": []
+    }
+   ],
+   "message": "Showing 4 restaurants.",
+   "latitude": 12.9352,
+   "longitude": 77.6245
+  }
+ },
+ "details_1032642": {
+  "args": {
+   "restaurantId": "1032642",
+   "latitude": 12.9352,
+   "longitude": 77.6245
+  },
+  "structuredContent": {
+   "restaurantId": "1032642",
+   "restaurant": {
+    "id": "1032642",
+    "restaurantId": "1032642",
+    "name": "Si Nonna's Original Sourdough Pizza",
+    "cuisines": [
+     "Italian",
+     "Pizza"
+    ],
+    "locality": "Koramangala, Bangalore",
+    "area": "Koramangala, Bangalore",
+    "address": "1.3 km • Plot No. No.64, Ground Floor, Evantha Praha, Koramangala, Bengaluru, Karnataka",
+    "avgRating": 4.8,
+    "costForTwo": "₹1000 for two",
+    "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/DINEOUT_ALL_RESTAURANTS/IMAGES/RESTAURANT_IMAGE_SERVICE/2026/3/4/5bd8fd7c-6164-4e39-849b-f2f26d5cc279_DSC00063Editbb2bd6cb12554951aa322343d759fe0a.JPG",
+    "mastheadImageUrls": [
+     "https://media-assets.swiggy.com/swiggy/image/upload/DINEOUT_ALL_RESTAURANTS/IMAGES/RESTAURANT_IMAGE_SERVICE/2026/3/4/5bd8fd7c-6164-4e39-849b-f2f26d5cc279_DSC00063Editbb2bd6cb12554951aa322343d759fe0a.JPG",
+     "https://media-assets.swiggy.com/swiggy/image/upload/DINEOUT_ALL_RESTAURANTS/IMAGES/RESTAURANT_IMAGE_SERVICE/2026/3/4/8ec61a8d-b479-4371-a358-113e030167f6_DSC00076Edit0bfbbde2997f4f0db55865b64328e339.JPG",
+     "https://media-assets.swiggy.com/swiggy/image/upload/DINEOUT_ALL_RESTAURANTS/IMAGES/RESTAURANT_IMAGE_SERVICE/2026/3/4/f4201bab-e6ca-40c8-83b6-398a425200cc_DSC00089Edit474052d89c3a4ab0aed884ed273f2487.JPG"
+    ],
+    "timings": "Open till 12AM",
+    "deals": [
+     {
+      "id": "",
+      "title": "Flat 15% off on Total Bill",
+      "description": "Available on Mon-Sun",
+      "discountPercentage": 15,
+      "coverCharge": 0,
+      "slotGroupName": "Pre-booking offers",
+      "offerCategory": "prebooking"
+     }
+    ],
+    "partnerType": "PR"
+   },
+   "offers": [
+    {
+     "id": "",
+     "title": "Flat 15% off on Total Bill",
+     "description": "Available on Mon-Sun",
+     "discountPercentage": 15,
+     "coverCharge": 0,
+     "slotGroupName": "Pre-booking offers",
+     "offerCategory": "prebooking"
+    }
+   ],
+   "menuImages": [
+    {
+     "imageUrl": "https://dineout-media-assets.swiggy.com/swiggy/image/upload/DINEOUT_ALL_RESTAURANTS/IMAGES/RESTAURANT_IMAGE_SERVICE/2025/1/23/42408cb7-17e4-4fb2-ac53-cb370f8451d0_image6273bbe81851d4316ac4bcc9fc87bf9f6.JPG",
+     "label": "Page 1"
+    }
+   ],
+   "menuImageGroups": [
+    {
+     "title": "All • 1 page",
+     "images": [
+      {
+       "imageUrl": "https://dineout-media-assets.swiggy.com/swiggy/image/upload/DINEOUT_ALL_RESTAURANTS/IMAGES/RESTAURANT_IMAGE_SERVICE/2025/1/23/42408cb7-17e4-4fb2-ac53-cb370f8451d0_image6273bbe81851d4316ac4bcc9fc87bf9f6.JPG",
+       "label": "Page 1"
+      }
+     ]
+    },
+    {
+     "title": "Bar • 1 page",
+     "images": [
+      {
+       "imageUrl": "https://dineout-media-assets.swiggy.com/swiggy/image/upload/DINEOUT_ALL_RESTAURANTS/IMAGES/RESTAURANT_IMAGE_SERVICE/2025/11/5/05e9e447-202c-4817-a86f-00c92f63e293_Screenshot2025110511233230c4931a5f7542b58abe30be223da9f1.PNG",
+       "label": "Page 2"
+      }
+     ]
+    }
+   ],
+   "amenities": [
+    "Reservation available",
+    "Free wifi",
+    "SwiggyPay accepted"
+   ],
+   "locationMapUrl": "https://www.google.com/maps/dir/?api=1&origin=12.9352,77.6245&destination=12.9365184,77.61503979999999&travelmode=driving",
+   "latitude": 12.9352,
+   "longitude": 77.6245
+  }
+ },
+ "slots_1032642_structured": {
+  "restaurantId": "1032642",
+  "date": "2026-10-23",
+  "message": "Found 364 available slot(s) for 2026-10-23",
+  "latitude": 12.9352,
+  "longitude": 77.6245
+ },
+ "render_italian_partial": {
+  "args": {
+   "restaurantIds": [
+    "1450311",
+    "1133390",
+    "1373592"
+   ],
+   "searches": [
+    {
+     "query": "Italian",
+     "latitude": 12.9352,
+     "longitude": 77.6245
+    }
+   ]
+  },
+  "structuredContent": {
+   "restaurants": [
+    {
+     "id": "1450311",
+     "name": "Baci Baci Osteria",
+     "cuisine": [
+      "Italian",
+      "Desserts"
+     ],
+     "locality": "Koramangala",
+     "area": "Koramangala",
+     "rating": {
+      "value": "4.8",
+      "count": 93
+     },
+     "costForTwo": "₹3400 for two",
+     "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/DINEOUT_ALL_RESTAURANTS/IMAGES/RESTAURANT_IMAGE_SERVICE/2026/9/18/16df2f40-f3d5-48b4-b0f7-881e3e843072_973c266b9f035b82e1bd6fd74ee398e1fde97f7939b3.JPG",
+     "distance": "0.2 km",
+     "highlights": [
+      "Alcohol served",
+      "Reservation available",
+      "Parking available",
+      "Free wifi",
+      "SwiggyPay accepted"
+     ],
+     "offers": [],
+     "offerHeadline": {
+      "title": "Up to 10% off with bank offers",
+      "kind": "payment",
+      "logoUrl": "https://dineout-media-assets.swiggy.com/swiggy/image/upload/dineout/new-rx-card/pocket_hero.png"
+     },
+     "bankOffers": [],
+     "vendorHighlights": [
+      {
+       "type": "",
+       "text": "Table booking"
+      }
+     ],
+     "availableDeals": []
+    },
+    {
+     "id": "1373592",
+     "name": "Euphoria Cafe",
+     "cuisine": [
+      "Italian",
+      "Ice Cream"
+     ],
+     "locality": "Koramangala",
+     "area": "Koramangala",
+     "rating": {
+      "value": "4.7",
+      "count": 212
+     },
+     "costForTwo": "₹500 for two",
+     "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/DINEOUT_ALL_RESTAURANTS/IMAGES/RESTAURANT_IMAGE_SERVICE/2026/5/6/f243b22c-071a-4ca7-8d4e-751ab0e07e67_Manch31716AMBIENCE3311ef8e5c4bd46fb9652971e303ac738.JPG",
+     "distance": "0.6 km",
+     "highlights": [
+      "Vegan food",
+      "Reservation available",
+      "Parking available",
+      "Free wifi",
+      "Smoking area",
+      "SwiggyPay accepted",
+      "Pure veg"
+     ],
+     "offers": [
+      {
+       "offerTitle": "Flat 20% off",
+       "offerDescription": "Available today"
+      }
+     ],
+     "offerHeadline": {
+      "title": "Flat 20% off",
+      "kind": "deal",
+      "subtitle": "on pre-booking",
+      "subtext": "+1 offer",
+      "logoUrl": "https://dineout-media-assets.swiggy.com/swiggy/image/upload/dineout/new-rx-card/one_pre_booking.png",
+      "logoText": "ONE"
+     },
+     "bankOffers": [
+      {
+       "offerTitle": "Flat 20% off"
+      }
+     ],
+     "vendorHighlights": [
+      {
+       "type": "",
+       "text": "Table booking"
+      }
+     ],
+     "availableDeals": []
+    }
+   ],
+   "message": "Showing 2 restaurants. (1 of 3 requested id could not be resolved and were skipped)",
+   "latitude": 12.9352,
+   "longitude": 77.6245
+  }
+ },
+ "render_npr_kfc": {
+  "_note": "listing-only (walk-in) restaurant: fields as returned live by render_restaurants_dineout (reported by the lead, 2026-10-22); image omitted",
+  "structuredContent": {
+   "restaurants": [
+    {
+     "id": "588619",
+     "name": "KFC",
+     "cuisine": [],
+     "locality": "Koramangala",
+     "area": "Koramangala",
+     "rating": {
+      "value": "--",
+      "count": 0
+     },
+     "costForTwo": "",
+     "distance": "0.9 km",
+     "highlights": [],
+     "offers": [],
+     "bankOffers": [],
+     "vendorHighlights": [],
+     "availableDeals": [],
+     "partnerType": "NPR",
+     "source": "autosuggest"
+    },
+    {
+     "id": "1032642",
+     "name": "Si Nonna's Original Sourdough Pizza",
+     "cuisine": [
+      "Italian",
+      "Pizza"
+     ],
+     "locality": "Koramangala",
+     "area": "Koramangala",
+     "rating": {
+      "value": "4.8",
+      "count": 1529
+     },
+     "costForTwo": "₹1000 for two",
+     "distance": "1.3 km",
+     "highlights": [
+      "Reservation available"
+     ],
+     "offers": [],
+     "bankOffers": [],
+     "vendorHighlights": [
+      {
+       "type": "",
+       "text": "Table booking"
+      }
+     ],
+     "availableDeals": []
+    }
+   ],
+   "message": "Showing 2 restaurants.",
+   "latitude": 12.9352,
+   "longitude": 77.6245
+  }
+ },
+ "details_npr_kfc": {
+  "_note": "get_restaurant_details for a listing-only restaurant (partnerType NPR, deals []), as reported live",
+  "structuredContent": {
+   "restaurantId": "588619",
+   "restaurant": {
+    "id": "588619",
+    "restaurantId": "588619",
+    "name": "KFC",
+    "cuisines": [],
+    "locality": "Koramangala, Bangalore",
+    "area": "Koramangala, Bangalore",
+    "address": "0.9 km • Koramangala, Bengaluru",
+    "costForTwo": "",
+    "deals": [],
+    "partnerType": "NPR"
+   },
+   "offers": [],
+   "menuImages": [],
+   "menuImageGroups": [],
+   "amenities": [],
+   "latitude": 12.9352,
+   "longitude": 77.6245
+  }
+ }
+}

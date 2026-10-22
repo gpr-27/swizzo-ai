@@ -1,0 +1,13 @@
+{
+ "_source": "live MCP call 2026-10-22 (structuredContent as returned; long arrays trimmed, values unchanged)",
+ "args": {
+  "addressId": "d1k9ctrdq1ocsktt0090__AMXrgASg728rGDWKq4_ky_"
+ },
+ "structuredContent": {
+  "allMethods": [],
+  "agenticPaymentEligible": false,
+  "paymentAmount": null,
+  "addressId": "d1k9ctrdq1ocsktt0090",
+  "placeOrderToolName": "place_food_order"
+ }
+}

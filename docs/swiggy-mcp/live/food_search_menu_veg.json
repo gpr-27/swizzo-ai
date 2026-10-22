@@ -1,0 +1,40 @@
+{
+ "_source": "live MCP call 2026-10-22 (structuredContent as returned; long arrays trimmed, values unchanged)",
+ "args": {
+  "query": "paneer biryani",
+  "addressId": "d1k9ctrdq1ocsktt0090__AMXrgASg728rGDWKq4_ky_",
+  "vegFilter": 1
+ },
+ "structuredContent": {
+  "items": [
+   {
+    "name": "Paneer Donne Biryani",
+    "price": 259,
+    "isVeg": true,
+    "menu_item_id": "207111339",
+    "inStock": 1,
+    "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/FOOD_CATALOG/IMAGES/CMS/2026/8/6/23b073e9-105e-4311-b273-4f5e2885b0dc_0c1c4e61-33d3-4af3-b093-5a300fcf0813.png_compressed",
+    "restaurant_id": "759932",
+    "restaurant_name": "Namo Andhra",
+    "rating": "4.0",
+    "hasAddons": true
+   },
+   {
+    "name": "Tandoori Paneer Dum Biryani",
+    "price": 338,
+    "isVeg": true,
+    "menu_item_id": "194018654",
+    "inStock": 1,
+    "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/FOOD_CATALOG/IMAGES/CMS/2025/10/13/1145c98c-4221-4d7c-a6d4-24c0477031dd_b72f7b00-e039-43cc-a542-6b5ce0bf8a00.jpg",
+    "restaurant_id": "1236719",
+    "restaurant_name": "1881 Dum House: Lucknow's Legacy",
+    "rating": "4.2"
+   }
+  ],
+  "total": 10,
+  "query": "paneer biryani",
+  "hasMore": true,
+  "nextOffset": 10,
+  "totalItems": 422
+ }
+}

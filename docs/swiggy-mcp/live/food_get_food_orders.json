@@ -1,0 +1,189 @@
+{
+ "_source": "live MCP call 2026-10-22 (structuredContent as returned; long arrays trimmed, values unchanged)",
+ "args": {
+  "addressId": "d1k9ctrdq1ocsktt0090__AMXrgASg728rGDWKq4_ky_",
+  "orderCount": 15
+ },
+ "structuredContent": {
+  "orders": [
+   {
+    "orderId": "250940466155091",
+    "restaurantId": "1058795",
+    "restaurantName": "Bikkgane Biryani",
+    "restaurantAreaName": "Tambaram, Kancheepuram",
+    "orderTotal": "₹341",
+    "orderStatus": "Delivered",
+    "orderDeliveryStatus": "delivered",
+    "orderType": "regular",
+    "orderedItems": "Special Chicken Hyderabadi Boneless Biryani (1)",
+    "orderedTime": "October 14, 3:11 PM",
+    "isActiveOrder": false,
+    "actions": [
+     {
+      "type": "PAST_ORDER_CTA_ENUM_REORDER",
+      "priority": 1,
+      "title": "REORDER",
+      "isEnabled": true,
+      "reorderMeta": {
+       "orderItems": [
+        {
+         "itemId": "167173390",
+         "name": "Special Chicken Hyderabadi Boneless Biryani",
+         "isVeg": "0",
+         "variants": [
+          {
+           "variationId": 178376719,
+           "groupId": 57485311,
+           "name": "Serves 2 - 1000ml",
+           "price": 419,
+           "externalChoiceId": "1281003915",
+           "externalGroupId": "VG1281003905",
+           "variantTaxCharges": {
+            "gst": "0.0"
+           },
+           "variantTaxExpressions": {
+            "gstInclusive": "false"
+           },
+           "gstDetails": {},
+           "attributes": {}
+          }
+         ],
+         "quantity": "1",
+         "total": "438",
+         "subtotal": "419",
+         "packingCharges": "19",
+         "categoryDetails": {
+          "category": "Hyderabadi Biryani",
+          "subCategory": "Non Veg Hyderabadi Biryani"
+         },
+         "attributes": {
+          "portionSize": "0",
+          "vegClassifier": "VEG_CLASSIFIER_NONVEG"
+         }
+        }
+       ],
+       "restaurantCoverImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/12/4/0f39400c-adb7-4037-b5b5-a54b460e5a7f_1058795.JPG"
+      }
+     },
+     {
+      "type": "PAST_ORDER_CTA_ENUM_RATE_DELIVERY",
+      "priority": 4,
+      "title": "RATE DELIVERY",
+      "isEnabled": true,
+      "rateDeliveryMeta": {
+       "ratingType": "delivery",
+       "ratingTitle": "Not available"
+      }
+     }
+    ]
+   },
+   {
+    "orderId": "237822198473105",
+    "restaurantId": "183187",
+    "restaurantName": "Bismillah Hyderabad Dum Biryani",
+    "restaurantAreaName": "Mangamuru Road",
+    "orderTotal": "₹307",
+    "orderStatus": "cancelled",
+    "orderType": "regular",
+    "orderedItems": "Chicken Dum Biryani (1)",
+    "orderedTime": "May 15, 7:13 PM",
+    "isActiveOrder": false,
+    "actions": [
+     {
+      "type": "PAST_ORDER_CTA_ENUM_REORDER",
+      "priority": 1,
+      "title": "REORDER",
+      "isEnabled": true,
+      "reorderMeta": {
+       "orderItems": [
+        {
+         "itemId": "41588061",
+         "name": "Chicken Dum Biryani",
+         "isVeg": "0",
+         "quantity": "1",
+         "total": "289",
+         "subtotal": "289",
+         "packingCharges": "0",
+         "categoryDetails": {
+          "category": "Chicken Biryanis",
+          "subCategory": "nota"
+         },
+         "attributes": {
+          "portionSize": "1",
+          "vegClassifier": "VEG_CLASSIFIER_NONVEG"
+         }
+        }
+       ],
+       "restaurantCoverImageId": "u7dynyeabdgn5rujasvl"
+      }
+     },
+     {
+      "type": "PAST_ORDER_CTA_ENUM_RATE_ORDER",
+      "priority": 2,
+      "title": "RATE ORDER",
+      "isEnabled": true,
+      "rateDeliveryMeta": {
+       "ratingType": "delivery",
+       "rateAll": true,
+       "ratingTitle": "Not available"
+      }
+     }
+    ]
+   },
+   {
+    "orderId": "235207521117114",
+    "restaurantId": "1203761",
+    "restaurantName": "Punjabi Dhaba",
+    "restaurantAreaName": "Viralimalai",
+    "orderTotal": "₹110",
+    "orderStatus": "Delivered",
+    "orderDeliveryStatus": "delivered",
+    "orderType": "regular",
+    "orderedItems": "Chicken rice (1)",
+    "orderedTime": "April 15, 12:55 PM",
+    "isActiveOrder": false,
+    "actions": [
+     {
+      "type": "PAST_ORDER_CTA_ENUM_REORDER",
+      "priority": 1,
+      "title": "REORDER",
+      "isEnabled": true,
+      "reorderMeta": {
+       "orderItems": [
+        {
+         "itemId": "182051004",
+         "name": "Chicken rice",
+         "isVeg": "0",
+         "quantity": "1",
+         "total": "174",
+         "subtotal": "174",
+         "packingCharges": "0",
+         "categoryDetails": {
+          "category": "Fried Rice Varieties",
+          "subCategory": "nota"
+         },
+         "attributes": {
+          "portionSize": "0",
+          "vegClassifier": "VEG_CLASSIFIER_NONVEG"
+         }
+        }
+       ],
+       "restaurantCoverImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/1/20/95003306-b683-4e9c-a61a-bccee27ee0a8_1203761.jpg"
+      }
+     },
+     {
+      "type": "PAST_ORDER_CTA_ENUM_RATE_FOOD",
+      "priority": 3,
+      "title": "RATE FOOD",
+      "isEnabled": true,
+      "rateDeliveryMeta": {
+       "ratingType": "restaurant",
+       "ratingTitle": "Not available"
+      }
+     }
+    ]
+   }
+  ],
+  "total": 5
+ }
+}

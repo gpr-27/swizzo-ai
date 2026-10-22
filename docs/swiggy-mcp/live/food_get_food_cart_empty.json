@@ -1,0 +1,20 @@
+{
+ "_source": "live MCP call 2026-10-22 (structuredContent as returned; long arrays trimmed, values unchanged)",
+ "args": {
+  "addressId": "d1k9ctrdq1ocsktt0090__AMXrgASg728rGDWKq4_ky_"
+ },
+ "structuredContent": {
+  "statusCode": 0,
+  "statusMessage": "CART",
+  "statusTitle": null,
+  "ctaText": null,
+  "ctaAction": null,
+  "data": null,
+  "errorCodes": null,
+  "tid": "<redacted>",
+  "sid": "<redacted>",
+  "deviceId": "im-mcp-server",
+  "successful": true,
+  "addressId": "d1k9ctrdq1ocsktt0090"
+ }
+}

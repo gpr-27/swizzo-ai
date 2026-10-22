@@ -1,0 +1,84 @@
+{
+ "_source": "LIVE-SAMPLES.md (captured 2026-10-22, raw CallToolResult)",
+ "result": {
+  "_meta": {
+   "widgetFlags": {
+    "chatgptPlatformOverrides": true
+   }
+  },
+  "content": [
+   {
+    "type": "text",
+    "text": "Cart retrieved successfully. Please display the cart details in a tabular format showing:\n1. Delivery address (from selectedAddressDetails)\n2. Items table with columns: Item Name, Quantity, Unit Price, Total Price (include availability status)\n3. Cost breakdown table showing all charges from billBreakdown (item total, delivery charges, handling fees, GST, discounts, savings, and final total)\n4. Payment: when the user is ready to pay, call get_payment_options to show the payment methods (it returns the picker). Do NOT list payment methods here.\n5. Swiggy One Status: Active (ONE - PLUS)\n\n⚠️ A rich UI widget may be shown to the user with this data. Avoid restating everything the widget already displays — instead, provide a brief recommendation or ask what they'd like to do next."
+   },
+   {
+    "type": "text",
+    "text": "{\n  \"selectedAddress\": \"db7kh1c1d96ofdam8g8g\",\n  \"selectedAddressDetails\": {\n    \"id\": \"db7kh1c1d96ofdam8g8g\",\n    \"address\": \"West Tambaram, Tambaram, Chennai, Tamil Nadu, India\",\n    \"area\": \"West Tambaram\",\n    \"name\": \"Test User\",\n    \"mobile\": \"9000006256\",\n    \"lat\": 12.93,\n    \"lng\": 80.12,\n    \"annotation\": \"User\",\n    \"category\": \"OTHER\",\n    \"flatNo\": \"[flat redacted]\",\n    \"city\": \"Chennai\"\n  },\n  \"cartTotalAmount\": \"₹266\",\n  \"items\": [\n    {\n      \"spinId\": \"VRBN3GVWZ2\",\n      \"skuId\": \"2CG4J4927S\",\n      \"productId\": \"SF4DO4VQNE\",\n      \"itemName\": \"Godrej Yummiez Cheese Corn Nuggets\",\n      \"itemVariant\": \"400 g\",\n      \"quantity\": 1,\n      \"storeId\": 1404943,\n      \"isInStockAndAvailable\": true,\n      \"mrp\": 240,\n      \"discountedFinalPrice\": 219,\n      \"imageUrl\": \"https://media-assets.swiggy.com/swiggy/image/upload/NI_CATALOG/IMAGES/CIW/2026/3/12/e6d80569-66b6-4506-b762-693d7fa34ddc_3651_1.png\",\n      \"maxQuantity\": 3,\n      \"maxQuantityMessage\": \"That's all we have in stock at the moment!\"\n    }\n  ],\n  \"billBreakdown\": {\n    \"lineItems\": [\n      {\n        \"label\": \"Item Total\",\n        \"value\": \"₹219.00\"\n      },\n      {\n        \"label\": \"Handling Fee\",\n        \"value\": \"₹12.00\"\n      },\n      {\n        \"label\": \"Delivery Partner Fee\",\n        \"value\": \"FREE\"\n      },\n      {\n        \"label\": \"Late Night Fee\",\n        \"value\": \"₹35.40\"\n      }\n    ],\n    \"toPay\": {\n      \"label\": \"To Pay\",\n      \"value\": \"₹266\"\n    }\n  },\n  \"superData\": {\n    \"userStatus\": \"SUPER\",\n    \"program\": \"ONE\",\n    \"offering\": \"PLUS\"\n  },\n  \"cartId\": \"ace5f3ea-494f-44a2-b1c8-89f5a50236c6\"\n}"
+   }
+  ],
+  "structuredContent": {
+   "selectedAddress": "db7kh1c1d96ofdam8g8g",
+   "selectedAddressDetails": {
+    "id": "db7kh1c1d96ofdam8g8g",
+    "address": "West Tambaram, Tambaram, Chennai, Tamil Nadu, India",
+    "area": "West Tambaram",
+    "name": "Test User",
+    "mobile": "9000006256",
+    "lat": 12.93,
+    "lng": 80.12,
+    "annotation": "User",
+    "category": "OTHER",
+    "flatNo": "[flat redacted]",
+    "city": "Chennai"
+   },
+   "cartTotalAmount": "₹266",
+   "items": [
+    {
+     "spinId": "VRBN3GVWZ2",
+     "skuId": "2CG4J4927S",
+     "productId": "SF4DO4VQNE",
+     "itemName": "Godrej Yummiez Cheese Corn Nuggets",
+     "itemVariant": "400 g",
+     "quantity": 1,
+     "storeId": 1404943,
+     "isInStockAndAvailable": true,
+     "mrp": 240,
+     "discountedFinalPrice": 219,
+     "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/NI_CATALOG/IMAGES/CIW/2026/3/12/e6d80569-66b6-4506-b762-693d7fa34ddc_3651_1.png",
+     "maxQuantity": 3,
+     "maxQuantityMessage": "That's all we have in stock at the moment!"
+    }
+   ],
+   "billBreakdown": {
+    "lineItems": [
+     {
+      "label": "Item Total",
+      "value": "₹219.00"
+     },
+     {
+      "label": "Handling Fee",
+      "value": "₹12.00"
+     },
+     {
+      "label": "Delivery Partner Fee",
+      "value": "FREE"
+     },
+     {
+      "label": "Late Night Fee",
+      "value": "₹35.40"
+     }
+    ],
+    "toPay": {
+     "label": "To Pay",
+     "value": "₹266"
+    }
+   },
+   "superData": {
+    "userStatus": "SUPER",
+    "program": "ONE",
+    "offering": "PLUS"
+   },
+   "cartId": "ace5f3ea-494f-44a2-b1c8-89f5a50236c6"
+  }
+ }
+}

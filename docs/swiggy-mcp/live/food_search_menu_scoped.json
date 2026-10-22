@@ -1,0 +1,110 @@
+{
+ "_source": "live MCP call 2026-10-22 (structuredContent as returned; long arrays trimmed, values unchanged)",
+ "args": {
+  "query": "paneer biryani",
+  "addressId": "d1k9ctrdq1ocsktt0090__AMXrgASg728rGDWKq4_ky_",
+  "restaurantIdOfAddedItem": "271"
+ },
+ "structuredContent": {
+  "items": [
+   {
+    "name": "Box Paneer Biryani",
+    "price": 270,
+    "isVeg": true,
+    "menu_item_id": "166304719",
+    "inStock": 1,
+    "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/FOOD_CATALOG/IMAGES/CMS/2025/4/4/ada618dc-2c83-4fda-b6f5-7e49375f86b3_6d12fd05-38fe-4655-847e-81622138814e.jpg",
+    "rating": "4.6",
+    "totalRatings": "749",
+    "hasVariants": false,
+    "hasAddons": false
+   },
+   {
+    "name": "Paneer Biryani",
+    "price": 380,
+    "isVeg": true,
+    "menu_item_id": "86408296",
+    "inStock": 1,
+    "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/FOOD_CATALOG/IMAGES/CMS/2025/6/6/a380b487-e336-41fa-966a-2b1490e475c9_49f5550e-15a1-42cc-96f9-46e416891bff.jpg",
+    "rating": "4.5",
+    "totalRatings": "10.3K+",
+    "hasVariants": false,
+    "hasAddons": true,
+    "addons": [
+     {
+      "groupId": "139030003",
+      "groupName": "Starters (Veg)",
+      "choices": [
+       {
+        "id": "140483220",
+        "name": "Mushroom Kabab",
+        "price": 385
+       },
+       {
+        "id": "148068712",
+        "name": "Golden Baby Corn",
+        "price": 350
+       },
+       {
+        "id": "118710158",
+        "name": "Paneer Kabab",
+        "price": 385
+       }
+      ],
+      "maxAddons": 3,
+      "maxFreeAddons": -1
+     },
+     {
+      "groupId": "94854265",
+      "groupName": "Extra",
+      "choices": [
+       {
+        "id": "147489485",
+        "name": "Extra Raita",
+        "price": 20
+       },
+       {
+        "id": "147489486",
+        "name": "Extra Gravy",
+        "price": 35
+       },
+       {
+        "id": "147489487",
+        "name": "Paneer Pcs",
+        "price": 250
+       },
+       {
+        "id": "147489483",
+        "name": "Extra Masala Pack",
+        "price": 130
+       },
+       {
+        "id": "123685185",
+        "name": "Gongura Pickle",
+        "price": 60
+       },
+       {
+        "id": "123685184",
+        "name": "Ulavacharu",
+        "price": 60
+       },
+       {
+        "id": "118710149",
+        "name": "Extra Aloo 4 Pcs",
+        "price": 45
+       }
+      ],
+      "maxAddons": 7,
+      "maxFreeAddons": -1
+     }
+    ]
+   }
+  ],
+  "total": 10,
+  "query": "paneer biryani",
+  "restaurantIdOfAddedItem": "271",
+  "hasMore": true,
+  "nextOffset": 10,
+  "totalItems": 31
+ }
+}

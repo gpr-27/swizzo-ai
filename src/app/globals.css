@@ -1,0 +1,534 @@
+@import "tailwindcss";
+
+/* `dark:` utilities follow the in-app theme (html[data-theme="dark"], set by
+   ThemeToggle + the no-flash script in layout.tsx) — NOT the OS preference,
+   which is Tailwind v4's default and disagrees whenever the user overrides it. */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/*
+  Swiggy Chat — Anthropic / Claude.com editorial design system (from design.md).
+  Warm cream canvas + scarce coral accent + dark-navy product surfaces.
+  Tokens are exposed to Tailwind v4 via @theme, so they become utilities:
+  bg-canvas, text-ink, border-hairline, text-coral, font-display, etc.
+
+  A light theme is the brand default. An OPT-IN, purely CSS-driven dark theme
+  lives below under html[data-theme="dark"] — it reuses the same token names
+  (cream → ink inversion) so no component needs new props to support it.
+*/
+
+@theme {
+  /* Brand & accent. Coral is deepened from the original #cc785c (3.3:1 with
+     white, 3.1:1 on cream) to a terracotta that passes WCAG AA 4.5:1 both as
+     white-on-coral fills and as coral text on cream / card surfaces. The dark
+     theme keeps the lighter coral (it passes on dark) — see below. */
+  --color-coral: #a65034;
+  --color-coral-active: #87412c;
+  --color-coral-disabled: #e6dfd8;
+  --color-accent-teal: #5db8a6;
+  --color-accent-amber: #e8a55a;
+
+  /* Surfaces */
+  --color-canvas: #faf9f5;
+  --color-surface-soft: #f5f0e8;
+  --color-surface-card: #efe9de;
+  --color-cream-strong: #e8e0d2;
+  --color-dark: #181715;
+  --color-dark-elevated: #252320;
+  --color-hairline: #e6dfd8;
+
+  /* Text */
+  --color-ink: #141413;
+  --color-body: #3d3d3a;
+  /* muted-soft was #8e8b82 (3.2:1 on cream — failed AA for the many meta
+     lines/placeholders using it); muted deepened a step to keep the hierarchy. */
+  --color-muted: #5c5a54;
+  --color-muted-soft: #6f6c65;
+  --color-on-primary: #ffffff;
+  --color-on-dark: #faf9f5;
+  --color-on-dark-soft: #a09d96;
+
+  /* Semantic — `success` is the bright fill used for veg dots & tints. The
+     *-ink tokens are the legible on-cream text greens/ambers/teals (these
+     replace the literals like #3f8f52 / #9a6312 / #2c7a6a that were hardcoded
+     across the cards). Use text-success-ink / bg-success-ink, etc. */
+  --color-success: #5db872;
+  --color-success-ink: #276b39;
+  --color-amber-ink: #8a5810;
+  --color-teal-ink: #256b5c;
+  --color-error: #a83434;
+
+  /* Type families (wired to next/font CSS variables in layout.tsx) */
+  --font-display: var(--font-fraunces), "Tiempos Headline", Georgia, serif;
+  --font-sans: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, "JetBrains Mono",
+    monospace;
+
+  /* Radius scale — generous, premium curves (the whole UI rounds from here).
+     Only the three used by the design are overridden; xs/sm/2xl/pill fall back
+     to Tailwind defaults (they were dead). */
+  --radius-md: 13px;
+  --radius-lg: 18px;
+  --radius-xl: 26px;
+
+  /* Soft, diffuse elevation for a smooth premium feel */
+  --shadow-soft: 0 1px 2px rgba(20, 20, 19, 0.05), 0 3px 10px rgba(20, 20, 19, 0.04);
+  --shadow-card: 0 4px 18px rgba(20, 20, 19, 0.05), 0 18px 50px rgba(20, 20, 19, 0.07);
+  --shadow-lifted: 0 6px 16px rgba(204, 120, 92, 0.22), 0 2px 4px rgba(20, 20, 19, 0.06);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  background-color: var(--color-canvas);
+  color: var(--color-body);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  /* The canvas + base text always ease between themes, so the backdrop never
+     snaps when the light⇄dark tokens flip. */
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+/* ───────────────────────────── Dark theme (opt-in) ─────────────────────────
+   Activated only when html carries data-theme="dark". Purely a token remap:
+   the warm cream canvas inverts to a deep warm ink, cards become elevated
+   panels, the dark-navy trays drop to recessed near-black wells, and the
+   on-cream text greens/ambers/teals lift for contrast. Coral stays the brand.
+   Default (no attribute) is untouched warm cream. */
+html[data-theme="dark"] {
+  color-scheme: dark;
+
+  /* Coral stays the original, lighter brand coral on dark (5.6:1 on the dark
+     canvas). Text on coral fills flips to deep ink (5.6:1) — white on this
+     coral would be 3.3:1. */
+  --color-coral: #cc785c;
+  --color-coral-active: #e0937a;
+  --color-on-primary: #16140f;
+  --color-coral-disabled: #3a342d;
+  --color-canvas: #16140f;
+  --color-surface-soft: #1c1a14;
+  --color-surface-card: #232019;
+  --color-cream-strong: #2c2820;
+  --color-hairline: #312d25;
+
+  /* Trays / dark-navy surfaces become the deepest wells so they still read as
+     distinct panels against the now-dark canvas. */
+  --color-dark: #0e0d0a;
+  --color-dark-elevated: #181610;
+
+  --color-ink: #f7f4ec;
+  --color-body: #d8d3c8;
+  --color-muted: #a8a299;
+  --color-muted-soft: #948f86;
+
+  --color-success: #6fce86;
+  --color-success-ink: #74cf8a;
+  --color-amber-ink: #e0b15f;
+  --color-teal-ink: #6fc9b6;
+  --color-error: #e0726f;
+
+  --shadow-soft: 0 1px 2px rgba(0, 0, 0, 0.35), 0 3px 12px rgba(0, 0, 0, 0.3);
+  --shadow-card: 0 6px 22px rgba(0, 0, 0, 0.4), 0 20px 56px rgba(0, 0, 0, 0.45);
+}
+
+/* Product/dish photos are shot on a WHITE background and use mix-blend-multiply
+   to sit cleanly on the cream tiles. On dark surfaces, multiply blends them into
+   the darkness and they vanish — so in dark mode give those images a light tile
+   of their own and switch off the blend, keeping every product visible. */
+html[data-theme="dark"] img.mix-blend-multiply {
+  mix-blend-mode: normal;
+  background-color: #f4f1ea;
+  border-radius: 0.375rem;
+}
+
+/* The skeleton sheen is a bright cream sweep on light; on dark surfaces that
+   white band is harsh, so soften it to a faint highlight that still reads. */
+html[data-theme="dark"] .skeleton,
+html[data-theme="dark"] .skeleton-text {
+  background-image: linear-gradient(
+    100deg,
+    transparent 20%,
+    rgba(255, 255, 255, 0.06) 50%,
+    transparent 80%
+  );
+}
+
+/* ─────────────── Theme switch: a one-shot, whole-surface color crossfade ─────
+   ThemeToggle adds `.theme-transition` to <html> for the duration of a
+   user-initiated light⇄dark switch, then removes it. Scoping the global
+   color/border/shadow transition to JUST that brief window lets the entire
+   surface — canvas, cards, dark trays, hairlines, icons — ease together instead
+   of snapping, WITHOUT paying a transition tax on every later hover/interaction.
+   The initial on-load apply runs without this class, so a saved dark theme
+   paints instantly with no fade. */
+:root.theme-transition,
+:root.theme-transition *,
+:root.theme-transition *::before,
+:root.theme-transition *::after {
+  transition:
+    background-color 0.34s ease,
+    border-color 0.34s ease,
+    color 0.34s ease,
+    fill 0.34s ease,
+    stroke 0.34s ease,
+    box-shadow 0.34s ease,
+    opacity 0.34s ease,
+    transform 0.34s cubic-bezier(0.22, 1, 0.36, 1) !important;
+  transition-delay: 0s !important;
+}
+/* Honour reduced-motion: same specificity + later source order collapses the
+   crossfade to an instant swap (the blanket guard below can't reach this rule). */
+@media (prefers-reduced-motion: reduce) {
+  :root.theme-transition,
+  :root.theme-transition *,
+  :root.theme-transition *::before,
+  :root.theme-transition *::after {
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* Smooth, premium micro-interactions on everything interactive. */
+button,
+a,
+input,
+textarea,
+select,
+[role="tab"],
+[role="button"] {
+  transition:
+    color 0.2s ease,
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.25s ease,
+    transform 0.2s cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 0.2s ease;
+}
+
+/* ───────────────── Blanket reduced-motion guard ─────────────────
+   One rule that neutralizes ALL animation/transition (covers the
+   MacroMeter/BudgetMeter width fills, the skeleton shimmer, the image
+   blur-up reveal, RevealList entrances, etc.) and explicitly kills the
+   ProductCard / FoodRestaurantCard hover-lift displacement so nothing moves. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+  /* Tailwind's hover:-translate-y-0.5 on the cards — remove the lift entirely. */
+  .hover\:-translate-y-0\.5:hover {
+    transform: none !important;
+    translate: none !important;
+  }
+}
+
+/* ───────────────────────────── Top navigation layout ─────────────────────────
+   Below lg the bar is a 2-row grid so nothing overflows a phone:
+     row 1 · brand | delivery address (truncates) | theme | cart pill
+     row 2 · service tabs (scroll if tight)  | history · tools · account
+   From lg up it collapses to the single editorial row (DOM order). `--nav-h`
+   is the bar's height, used to drop mobile popovers/sheets just beneath it. */
+:root {
+  --nav-h: 6.5rem;
+}
+.topnav {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto auto;
+  grid-template-areas:
+    "brand addr theme cart"
+    "tabs tabs actions actions";
+  align-items: center;
+  column-gap: 0.75rem;
+  row-gap: 0.5rem;
+  padding-block: 0.5rem;
+}
+.topnav-brand { grid-area: brand; }
+.topnav-tabs { grid-area: tabs; }
+.topnav-addr { grid-area: addr; min-width: 0; }
+.topnav-actions { grid-area: actions; justify-self: end; }
+.topnav-theme { grid-area: theme; justify-self: end; }
+.topnav-cart { grid-area: cart; justify-self: end; }
+/* Phones (< 640px): two rows can't hold five service tabs AND the actions —
+   the tab strip shrank to ~1 visible tab behind a scroller. Give the tabs a
+   full-width row of their own (each tab an equal, thumb-sized target):
+     row 1 · brand | delivery address | cart
+     row 2 · history · chats · tools · account | theme
+     row 3 · service tabs (equal widths, no scrolling) */
+@media (max-width: 39.99rem) {
+  :root {
+    --nav-h: 9.5rem;
+  }
+  .topnav {
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    grid-template-areas:
+      "brand addr cart"
+      "actions actions theme"
+      "tabs tabs tabs";
+    row-gap: 0.375rem;
+    padding-block: 0.375rem;
+  }
+  .topnav-actions { justify-self: start; }
+  .topnav-tabs { justify-self: stretch; }
+  .topnav-tabs > [role="tab"] {
+    flex: 1 1 0;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+    min-height: 2.75rem;
+    min-width: 0;
+    padding-inline: 0.25rem;
+    padding-block: 0.25rem;
+  }
+  /* With a full row each tab has room for its name under the icon. */
+  .topnav-tab-label {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    clip-path: none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    font-size: 0.625rem;
+    line-height: 1.15;
+    font-weight: 600;
+  }
+}
+@media (min-width: 64rem) {
+  :root {
+    --nav-h: 4rem;
+  }
+  .topnav {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.75rem;
+    height: 4rem;
+    padding-block: 0;
+  }
+  /* keep at least a few words of the delivery address visible on desktop */
+  .topnav-addr { flex: 0 1 auto; min-width: 8.5rem; }
+}
+
+/* Display headlines: serif, regular weight, negative tracking (non-negotiable). */
+.font-display {
+  font-family: var(--font-display);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+/* Thin, branded scrollbars on cream + dark surfaces (token-driven, so they
+   adapt automatically in dark mode). */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-hairline) transparent;
+}
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+*::-webkit-scrollbar-thumb {
+  background: var(--color-hairline);
+  border-radius: 9999px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: var(--color-cream-strong);
+  background-clip: content-box;
+}
+
+/* ───────────────────────── Focus: one branded coral ring ─────────────────────
+   Every interactive non-input surface (buttons, chips, cards, tabs, links,
+   menu items, anything tabbable) gets the SAME visible 2px coral ring on
+   keyboard focus — replacing the grey UA outline. Low specificity via :where()
+   so components can still opt out. Text inputs keep the softer .coral-ring glow
+   below, so they're intentionally excluded here to avoid a double ring. */
+:where(
+  a[href],
+  button,
+  summary,
+  [role="button"],
+  [role="tab"],
+  [role="link"],
+  [role="menuitem"],
+  [role="option"],
+  [tabindex]
+):focus-visible {
+  /* The outline automatically follows each element's own border-radius. */
+  outline: 2px solid var(--color-coral);
+  outline-offset: 2px;
+}
+
+/* Soft coral focus ring for text inputs (input/textarea opt in via class). */
+.coral-ring:focus-visible {
+  outline: none;
+  border-color: var(--color-coral);
+  box-shadow: 0 0 0 3px rgba(204, 120, 92, 0.18);
+}
+
+/* ─────────────────────────────── Motion ──────────────────────────────── */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-rise {
+  animation: rise 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Kept for backward-compat. */
+@keyframes blink {
+  0%,
+  80%,
+  100% {
+    opacity: 0.25;
+  }
+  40% {
+    opacity: 1;
+  }
+}
+.animate-blink {
+  animation: blink 1.2s infinite both;
+}
+
+/* Refined "thinking" indicator — a calm staggered bob + opacity breathe used by
+   TypingDots; reads as deliberate thought, not a frantic loader. */
+@keyframes thinking {
+  0%,
+  100% {
+    opacity: 0.28;
+    transform: translateY(0) scale(0.9);
+  }
+  35% {
+    opacity: 1;
+    transform: translateY(-2.5px) scale(1);
+  }
+}
+.animate-thinking {
+  animation: thinking 1.3s cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+}
+
+/* ──────────────────── Skeleton / shimmer + image blur-up ────────────────────
+   A calm cream sheen sweeps across a placeholder surface so loading states feel
+   instant and premium instead of blank. Components drive these off the stream
+   lifecycle (show .skeleton while a card/grid is loading, swap to content when
+   it lands). The shimmer is automatically stilled under reduced-motion. */
+@keyframes shimmer {
+  from {
+    background-position: 200% 0;
+  }
+  to {
+    background-position: -200% 0;
+  }
+}
+
+.skeleton,
+.skeleton-text {
+  position: relative;
+  background-color: var(--color-surface-card);
+  background-image: linear-gradient(
+    100deg,
+    transparent 20%,
+    rgba(255, 255, 255, 0.45) 50%,
+    transparent 80%
+  );
+  background-size: 200% 100%;
+  background-repeat: no-repeat;
+  border-radius: var(--radius-md);
+  animation: shimmer 1.8s ease-in-out infinite;
+}
+
+/* A single line of placeholder text — self-sufficient; pair several with varied
+   widths (e.g. a Tailwind w-24 / w-1/2) to mock a paragraph. */
+.skeleton-text {
+  height: 0.72em;
+  border-radius: 9999px;
+}
+.skeleton-text + .skeleton-text {
+  margin-top: 0.55em;
+}
+
+/* Image placeholder frame: a cream tile that sits behind product/dish images so
+   the slot is never an empty/white flash, and broken images degrade gracefully. */
+.img-frame {
+  background-color: var(--color-surface-card);
+}
+
+/* Blur-up reveal: an image develops from a soft, slightly-scaled blur to sharp
+   as it paints in, so pictures settle rather than pop. Pair with .img-frame on
+   the wrapper. Reduced-motion collapses this to an instant, fully-visible image. */
+@keyframes img-reveal {
+  from {
+    opacity: 0;
+    filter: blur(7px);
+    transform: scale(1.03);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1);
+  }
+}
+.img-blur-up {
+  animation: img-reveal 0.7s ease-out both;
+}
+
+/* Long chats: turns well above the live tail skip layout/paint while
+   off-screen (ChatThread adds .cv-auto). `auto` remembers each turn's last
+   rendered height, so scrolling back never jumps. */
+.cv-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 480px;
+}
+
+/* The composer grows with its text (field-sizing), and an empty box sizes to
+   its placeholder — keep the hint on one line so a long service placeholder
+   doesn't make the composer three lines tall on a phone. */
+.composer-input::placeholder {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ─────────────── Touch targets (WCAG 2.5.8 + 44px platform guidance) ───────
+   On touch screens, small pills / icon buttons get an invisible hit area of at
+   least 44×44 px, centred on the control — the visual design is unchanged.
+   Applies to every control in the top bar plus anything marked `.tap`. The
+   `position: relative` lives in a layer so a control's own `absolute`/`fixed`
+   utility still wins. */
+@layer components {
+  @media (pointer: coarse) {
+    .topnav :is(button, a[href]),
+    .tap {
+      position: relative;
+    }
+  }
+}
+@media (pointer: coarse) {
+  .topnav :is(button, a[href])::after,
+  .tap::after {
+    content: "";
+    position: absolute;
+    inset-block: min(0px, calc((100% - 44px) / 2));
+    inset-inline: min(0px, calc((100% - 44px) / 2));
+  }
+}

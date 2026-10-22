@@ -1,0 +1,8 @@
+{
+ "_source": "live MCP call 2026-10-22 (structuredContent as returned; long arrays trimmed, values unchanged)",
+ "args": {},
+ "structuredContent": {
+  "orders": [],
+  "statusMessage": "Tracking information retrieved successfully"
+ }
+}

@@ -1,0 +1,111 @@
+{
+ "_source": "live MCP call 2026-10-22 (structuredContent as returned; long arrays trimmed, values unchanged)",
+ "args": {
+  "restaurantId": "271",
+  "addressId": "d1k9ctrdq1ocsktt0090__AMXrgASg728rGDWKq4_ky_",
+  "pageSize": 2
+ },
+ "structuredContent": {
+  "restaurant": {
+   "id": "271",
+   "name": "Meghana Foods",
+   "city": "Bangalore",
+   "areaName": "Indiranagar",
+   "cuisines": [
+    "Biryani",
+    "Andhra"
+   ],
+   "avgRating": 4.5,
+   "avgRatingString": "4.5",
+   "totalRatingsString": "129K+ ratings",
+   "costForTwoMessage": "₹500 for two",
+   "isOpen": true,
+   "deliveryTime": 45,
+   "slaString": "40-45 MINS",
+   "address": "544, First Floor, Nearindiranagar Metro Station, Cmh Road, Indiranagar, Bangalore",
+   "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/sotxv0gury7f7vrfvb2r"
+  },
+  "categories": [
+   {
+    "title": "Recommended",
+    "items": [
+     {
+      "id": "86408061",
+      "name": "Chicken Boneless Biryani",
+      "price": 375,
+      "inStock": 1,
+      "isVeg": false,
+      "isBestseller": true,
+      "rating": "4.6",
+      "hasVariants": false,
+      "hasAddons": true,
+      "description": "We use long grain basmati rice, and the boneless pieces of chicken are cooked in our own andra spice...",
+      "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/FOOD_CATALOG/IMAGES/CMS/2025/12/29/57bebf52-5a58-42e0-af9d-3d872d52de83_2d89d14b-3568-4be1-946d-1d7b0539edae.jpg"
+     },
+     {
+      "id": "86408296",
+      "name": "Paneer Biryani",
+      "price": 380,
+      "inStock": 1,
+      "isVeg": true,
+      "isBestseller": true,
+      "rating": "4.5",
+      "hasVariants": false,
+      "hasAddons": true,
+      "description": "Fresh pieces of paneer are marinated in a specially prepared spice blend for maximum flavor. It serv...",
+      "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/FOOD_CATALOG/IMAGES/CMS/2025/6/6/a380b487-e336-41fa-966a-2b1490e475c9_49f5550e-15a1-42cc-96f9-46e416891bff.jpg"
+     },
+     {
+      "id": "86407955",
+      "name": "Pepper Chicken",
+      "price": 370,
+      "inStock": 1,
+      "isVeg": false,
+      "rating": "4.5",
+      "hasVariants": false,
+      "hasAddons": false,
+      "description": "12-15 pieces of boneless chicken are cooked with a lot of black pepper, our in-house spice mix, and ...",
+      "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/rlcjzwkysumyh28nxuaq"
+     },
+     {
+      "id": "86408676",
+      "name": "Chicken Tandoori",
+      "price": 375,
+      "inStock": 1,
+      "isVeg": false,
+      "isBestseller": true,
+      "rating": "4.5",
+      "hasVariants": true,
+      "hasAddons": false,
+      "description": "4 pieces of chicken are rubbed with our freshly made andra-style tandoori masala. It is not very spi...",
+      "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/FOOD_CATALOG/IMAGES/CMS/2025/12/29/3fac1d96-7cef-4499-8309-c8a986a801e8_90dcb944-df75-45e5-b2dc-da5f1c1a5511.jpg"
+     }
+    ],
+    "totalItems": 20,
+    "hasMoreItems": true
+   },
+   {
+    "title": "Day Special",
+    "categoryId": "34731761",
+    "items": [
+     {
+      "id": "195431529",
+      "name": "Royal Chicken",
+      "price": 410,
+      "isVeg": false,
+      "hasVariants": false,
+      "hasAddons": false,
+      "description": "Tender chicken infused with bold spices and a rich, creamy masala for a deliciously royal taste. ",
+      "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/FOOD_CATALOG/IMAGES/CMS/2026/7/1/672a26b3-043d-4f51-99c8-e501458b1217_313ebbde-5a30-4fc0-9477-74e30b801933.jpg"
+     }
+    ],
+    "totalItems": 5,
+    "hasMoreItems": false
+   }
+  ],
+  "totalCategories": 19,
+  "page": 1,
+  "pageSize": 2,
+  "hasMore": true
+ }
+}

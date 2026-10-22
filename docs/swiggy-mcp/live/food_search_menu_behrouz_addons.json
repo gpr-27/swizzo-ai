@@ -1,0 +1,277 @@
+{
+ "_source": "live MCP call 2026-10-22 search_menu {query:'biryani', restaurantIdOfAddedItem:'41795'} (structuredContent; 2 of 10 items kept, the Behrouz dish's add-on groups kept except long upsell lists; values unchanged). Shows Swiggy's per-portion near-duplicate required 'Choose Accompaniment' groups.",
+ "args": {
+  "query": "biryani",
+  "addressId": "d1k9ctrdq1ocsktt0090__AMXrgASg728rGDWKq4_ky_",
+  "restaurantIdOfAddedItem": "41795"
+ },
+ "structuredContent": {
+  "items": [
+   {
+    "name": "Hyderabadi Lazeez Bhuna Murgh Biryani (Dum Chicken Biryani)(Spicy)",
+    "price": 369,
+    "menu_item_id": "193068261",
+    "inStock": 1,
+    "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/FOOD_CATALOG/IMAGES/CMS/2026/2/2/8579fdd2-d448-4b34-8b6c-19a9d99649ad_324a5c58-910f-4567-83e5-174d560438ee.jpeg",
+    "rating": "3.9",
+    "totalRatings": "33",
+    "hasVariants": true,
+    "hasAddons": true,
+    "variantsV2": [
+     {
+      "groupId": "71345455",
+      "name": "Select Portion Size",
+      "variations": [
+       {
+        "name": "Serves 1 (Light Eater) - Miniyat",
+        "id": "211720502",
+        "inStock": 1,
+        "default": 1
+       },
+       {
+        "name": "Serves 4-5 - Alishaan",
+        "price": 1080,
+        "id": "211720505",
+        "inStock": 1
+       },
+       {
+        "name": "Serves 1 - Shahi",
+        "price": 60,
+        "id": "211720503"
+       },
+       {
+        "name": "Serves 2 - Shaan",
+        "price": 430,
+        "id": "211720504"
+       }
+      ]
+     }
+    ],
+    "addons": [
+     {
+      "groupId": "271731186",
+      "groupName": "Choose Accompaniment-.",
+      "choices": [
+       {
+        "id": "140218686",
+        "name": "Mint Raita & Gulab Jamun",
+        "price": 0
+       },
+       {
+        "id": "140218691",
+        "name": "Only Gulab Jamun",
+        "price": 0
+       },
+       {
+        "id": "140218689",
+        "name": "Only Mint Raita",
+        "price": 0
+       }
+      ],
+      "minAddons": 1,
+      "maxAddons": 1,
+      "maxFreeAddons": -1
+     },
+     {
+      "groupId": "271731187",
+      "groupName": "Choose Accompaniment",
+      "choices": [
+       {
+        "id": "139496439",
+        "name": "Only Mint Raita",
+        "price": 0
+       },
+       {
+        "id": "139496437",
+        "name": "Mint Raita & Gulab Jamun",
+        "price": 0
+       },
+       {
+        "id": "139496441",
+        "name": "Only Gulab Jamun",
+        "price": 0
+       }
+      ],
+      "minAddons": 1,
+      "maxAddons": 1,
+      "maxFreeAddons": -1
+     },
+     {
+      "groupId": "271731188",
+      "groupName": "Choose Accompaniment.",
+      "choices": [
+       {
+        "id": "139496440",
+        "name": "Only Mint Raita",
+        "price": 0
+       },
+       {
+        "id": "139496444",
+        "name": "Only Gulab Jamun",
+        "price": 0
+       },
+       {
+        "id": "139496438",
+        "name": "Mint Raita & Gulab Jamun",
+        "price": 0
+       }
+      ],
+      "minAddons": 1,
+      "maxAddons": 1,
+      "maxFreeAddons": -1
+     },
+     {
+      "groupId": "271731189",
+      "groupName": "Choose Accompaniment-",
+      "choices": [
+       {
+        "id": "139496442",
+        "name": "Only Gulab Jamun",
+        "price": 0
+       },
+       {
+        "id": "139496443",
+        "name": "Only Mint Raita",
+        "price": 0
+       },
+       {
+        "id": "139496445",
+        "name": "Mint Raita & Gulab Jamun",
+        "price": 0
+       }
+      ],
+      "minAddons": 1,
+      "maxAddons": 1,
+      "maxFreeAddons": -1
+     },
+     {
+      "groupId": "271731190",
+      "groupName": "Choose Your Cutlery",
+      "choices": [
+       {
+        "id": "139317502",
+        "name": "Cutlery Set (2 Pcs)",
+        "price": 19
+       },
+       {
+        "id": "139317503",
+        "name": "Cutlery Set (4 Pcs)",
+        "price": 29
+       }
+      ],
+      "maxAddons": 2,
+      "maxFreeAddons": -1
+     },
+     {
+      "groupId": "272686211",
+      "groupName": "Add an Egg.",
+      "choices": [
+       {
+        "id": "144254116",
+        "name": "Egg (2 Piece)",
+        "price": 49
+       }
+      ],
+      "maxAddons": 1,
+      "maxFreeAddons": -1
+     },
+     {
+      "groupId": "272686213",
+      "groupName": "Add an Egg-",
+      "choices": [
+       {
+        "id": "144254117",
+        "name": "Egg (4 Piece)",
+        "price": 99
+       }
+      ],
+      "maxAddons": 1,
+      "maxFreeAddons": -1
+     },
+     {
+      "groupId": "272686219",
+      "groupName": "Add an Egg",
+      "choices": [
+       {
+        "id": "144254115",
+        "name": "Egg (1 Piece)",
+        "price": 29
+       }
+      ],
+      "maxAddons": 1,
+      "maxFreeAddons": -1
+     },
+     {
+      "groupId": "271731194",
+      "groupName": "Choose-Your Extras.",
+      "choices": [
+       {
+        "id": "114320815",
+        "name": "Extra Mint Raita (80 gm)",
+        "price": 39
+       },
+       {
+        "id": "114320817",
+        "name": "Mughlai Gravy (80 gm)",
+        "price": 49
+       }
+      ],
+      "maxAddons": 2,
+      "maxFreeAddons": -1
+     }
+    ]
+   },
+   {
+    "name": "Lucknowi Subz-e-Biryani (Veg Dum Biryani)(Mild Spicy)",
+    "price": 339,
+    "isVeg": true,
+    "menu_item_id": "193068250",
+    "inStock": 1,
+    "rating": "4.6",
+    "totalRatings": "6",
+    "hasVariants": true,
+    "hasAddons": true,
+    "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/FOOD_CATALOG/IMAGES/CMS/2026/2/2/0419701e-9f2c-4048-975c-8e4f41787f78_3735bcf3-f02b-429e-b7ec-d85350761744.jpeg",
+    "variantsV2": [
+     {
+      "groupId": "71345444",
+      "name": "Select Portion Size",
+      "variations": [
+       {
+        "name": "Serves 1 (Light Eater) - Miniyat",
+        "id": "211720458",
+        "inStock": 1,
+        "default": 1
+       },
+       {
+        "name": "Serves 1 - Shahi",
+        "price": 70,
+        "id": "211720459",
+        "inStock": 1
+       },
+       {
+        "name": "Serves 2 - Shaan",
+        "price": 330,
+        "id": "211720460",
+        "inStock": 1
+       },
+       {
+        "name": "Serves 4-5 - Alishaan",
+        "price": 890,
+        "id": "211720461",
+        "inStock": 1
+       }
+      ]
+     }
+    ],
+    "addons": []
+   }
+  ],
+  "total": 10,
+  "query": "biryani",
+  "restaurantIdOfAddedItem": "41795",
+  "hasMore": true,
+  "nextOffset": 10,
+  "totalItems": 194
+ }
+}

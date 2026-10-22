@@ -1,0 +1,19 @@
+{
+ "_source": "LIVE-SAMPLES.md (captured 2026-10-22, raw CallToolResult)",
+ "result": {
+  "content": [
+   {
+    "type": "text",
+    "text": "Found 0 orders from the last 15 days. Each order includes full tracking details."
+   },
+   {
+    "type": "text",
+    "text": "{\n  \"orders\": [],\n  \"hasMore\": false\n}"
+   }
+  ],
+  "structuredContent": {
+   "orders": [],
+   "hasMore": false
+  }
+ }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "regions": ["bom1"],
+  "functions": {
+    "src/app/api/chat/route.ts": { "maxDuration": 120 },
+    "src/app/api/payments/status/route.ts": { "maxDuration": 45 },
+    "src/app/api/instamart/basket/route.ts": { "maxDuration": 60 }
+  },
+  "headers": [
+    {
+      "source": "/(.*)\\.(ico|png|svg|jpg|jpeg|webp|avif|woff2)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400, stale-while-revalidate=604800" }]
+    },
+    {
+      "source": "/api/(health|ready)",
+      "headers": [{ "key": "Cache-Control", "value": "no-store" }]
+    }
+  ]
+}

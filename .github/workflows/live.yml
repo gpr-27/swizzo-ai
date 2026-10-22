@@ -1,0 +1,81 @@
+# Live checks — OPTIONAL, needs repository secrets. Calls Swiggy's MCP servers
+# with READ-ONLY tools only (the suite refuses any tool not in READ_TOOLS),
+# and optionally the logged-in Playwright suite (read-only, every state-
+# changing route blocked) and the LLM provider chain.
+#   SWIGGY_TOKEN         a Swiggy MCP bearer access token        → test:live
+#   E2E_SWIGGY_COOKIE +  a sealed `swiggy_session` cookie and the
+#   E2E_SESSION_SECRET   SESSION_SECRET that sealed it            → logged-in E2E
+#   ANTHROPIC_API_KEY / GROQ_API_KEY / GEMINI_API_KEY (any)       → provider chain
+name: Live (read-only)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 3 * * *" # 09:00 IST daily
+
+concurrency:
+  group: live
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+env:
+  NODE_VERSION: "22"
+  NEXT_TELEMETRY_DISABLED: "1"
+  SWIGGY_ENABLE_ORDERS: "false"
+
+jobs:
+  live-mcp:
+    name: Live Swiggy read-only tools
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      SWIGGY_TOKEN: ${{ secrets.SWIGGY_TOKEN }}
+      LIVE_LLM: ${{ (secrets.ANTHROPIC_API_KEY != '' || secrets.GROQ_API_KEY != '' || secrets.GEMINI_API_KEY != '') && '1' || '' }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+      - run: npm ci
+      - name: test:live (skips itself without SWIGGY_TOKEN)
+        run: npm run test:live
+
+  live-e2e:
+    name: Logged-in E2E (read-only)
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      E2E_SWIGGY_COOKIE: ${{ secrets.E2E_SWIGGY_COOKIE }}
+      SESSION_SECRET: ${{ secrets.E2E_SESSION_SECRET }}
+      APP_BASE_URL: http://localhost:3200
+      NEXT_DIST_DIR: .next-e2e
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+      - run: npm ci
+      - name: Skip without secrets
+        id: gate
+        run: echo "run=${{ env.E2E_SWIGGY_COOKIE != '' && env.SESSION_SECRET != '' }}" >> "$GITHUB_OUTPUT"
+      - if: steps.gate.outputs.run == 'true'
+        run: npx next build
+      - if: steps.gate.outputs.run == 'true'
+        run: npx playwright install --with-deps chromium
+      - if: steps.gate.outputs.run == 'true'
+        run: npm run test:e2e:live
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: playwright-live-report
+          path: |
+            playwright-report/
+            test-results/
+          retention-days: 7

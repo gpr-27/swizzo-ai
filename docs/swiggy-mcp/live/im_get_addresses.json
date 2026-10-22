@@ -1,0 +1,53 @@
+{
+ "_source": "live MCP call 2026-10-22 (structuredContent as returned; 3 of 7 addresses kept, values unchanged)",
+ "args": {},
+ "structuredContent": {
+  "addresses": [
+   {
+    "id": "db7kh1c1d96ofdam8g8g__AMVEDwTGeS8WPRJQbO-o12",
+    "addressLine": "Test User: [flat redacted], West Tambaram, West Tambaram, Tambaram, Chennai, Tamil Nadu, India",
+    "phoneNumber": "****6256",
+    "addressCategory": "Other",
+    "addressTag": "User"
+   },
+   {
+    "id": "d1k9ctrdq1ocsktt0090__AMXrgASg728rGDWKq4_ky_",
+    "addressLine": "Test User: [flat redacted], New Tippasandra, Bengaluru, Karnataka, India",
+    "phoneNumber": "****6256",
+    "addressCategory": "Other",
+    "addressTag": "GPR"
+   },
+   {
+    "id": "cpdepit19tt3f622h3ng__AOys_QTFP0od9ekkq38oQa",
+    "addressLine": "Test User: [flat redacted], Ongole, Andhra Pradesh 523001, India",
+    "phoneNumber": "****6256",
+    "addressCategory": "Home",
+    "addressTag": "Home"
+   }
+  ],
+  "total": 7,
+  "pagination": {
+   "page": 1,
+   "pageSize": 10,
+   "total": 7,
+   "totalPages": 1,
+   "hasMore": false
+  },
+  "resolution": {
+   "resolutionSource": "ranked_saved_address",
+   "needsUserClarification": true,
+   "candidateAddressIds": [
+    "db7kh1c1d96ofdam8g8g__AMVEDwTGeS8WPRJQbO-o12",
+    "d7eh7ibq0afrvc8h3ajg__AKLWjASvPRgZEFNWbOijVc",
+    "d1k9ctrdq1ocsktt0090__AMXrgASg728rGDWKq4_ky_",
+    "d7euj6ifmsmggb1ou9u0__AKKoLASvPAYYm8iJKVUmsj",
+    "d9pc8lk1d96o5oskdiqg__AKPX4ASv49IllgrrEgWGCB",
+    "d2ku2stohbd2k8c3qerg__AQAxIATRP9sStGTGD8O5gn",
+    "cpdepit19tt3f622h3ng__AOys_QTFP0od9ekkq38oQa"
+   ],
+   "defaultAddressId": "db7kh1c1d96ofdam8g8g__AMVEDwTGeS8WPRJQbO-o12",
+   "scoreUsed": 1
+  },
+  "imWidgetV2Eligible": true
+ }
+}

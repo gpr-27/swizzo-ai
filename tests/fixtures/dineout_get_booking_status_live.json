@@ -1,0 +1,19 @@
+{
+  "_source": "live get_booking_status (Dineout) 23 Oct 2026 — the booking is nested under `order`; copied from scripts/verify-dineout.ts (values unchanged)",
+  "args": { "orderId": "251659596133204" },
+  "structuredContent": {
+    "order": {
+      "orderId": "251659596133204",
+      "restaurantId": "854085",
+      "restaurantName": "Ganbeii",
+      "restaurantLocation": "Koramangala",
+      "reservationDate": "27 Oct 2026",
+      "reservationTime": "08:00 PM",
+      "guestCount": 2,
+      "dealTitle": "Flat 10% Off on Total Bill",
+      "status": "PLACED",
+      "bill": { "subTotal": 20, "totalBillAmount": 20, "charges": [], "taxes": [], "discounts": [] }
+    },
+    "message": "Order Status: PLACED"
+  }
+}

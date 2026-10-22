@@ -1,0 +1,115 @@
+{
+ "_source": "live MCP call 2026-10-22 (structuredContent as returned; long arrays trimmed, values unchanged)",
+ "args": {},
+ "structuredContent": {
+  "platforms": {
+   "mobile": {
+    "groupName": "UPI",
+    "methods": [
+     {
+      "id": "gpay://upi/",
+      "displayName": "Google Pay",
+      "kind": "intent",
+      "iconUrl": "https://media-assets.swiggy.com/swiggy/image/upload/PaymentLogos/paymentIcons/upicollect/gpay"
+     },
+     {
+      "id": "phonepe://",
+      "displayName": "PhonePe UPI",
+      "kind": "intent",
+      "iconUrl": "https://media-assets.swiggy.com/swiggy/image/upload/PaymentLogos/paymentIcons/upicollect/phonepe"
+     },
+     {
+      "id": "paytmmp://",
+      "displayName": "Paytm UPI",
+      "kind": "intent",
+      "iconUrl": "https://media-assets.swiggy.com/swiggy/image/upload/portal/static-assets/icons/PaymentLogos/paymentIcons/PaytmLogo.png"
+     }
+    ]
+   },
+   "desktop": {
+    "groupName": "UPI",
+    "methods": [
+     {
+      "id": "PayWithQR",
+      "displayName": "Pay with QR",
+      "kind": "qr"
+     }
+    ]
+   }
+  },
+  "cod": {
+   "available": true,
+   "id": "COD",
+   "displayName": "Pay on delivery"
+  },
+  "swiggyMoney": {
+   "available": true,
+   "id": "SwiggyPay",
+   "displayName": "Swiggy Money"
+  },
+  "allMethods": [
+   {
+    "id": "gpay://upi/",
+    "groupName": "UPI",
+    "displayName": "Google Pay",
+    "iconUrl": "https://media-assets.swiggy.com/swiggy/image/upload/PaymentLogos/paymentIcons/upicollect/gpay",
+    "enabled": true,
+    "raw": {
+     "groupName": "UPI",
+     "upiIntent": true,
+     "name": "gpay://upi/",
+     "display_name": "Google Pay",
+     "payment_code": "UPI",
+     "enabled": true
+    }
+   },
+   {
+    "id": "PayWithQR",
+    "groupName": "UPI",
+    "displayName": "Pay with QR",
+    "enabled": true,
+    "raw": {
+     "groupName": "UPI",
+     "upiIntent": false,
+     "name": "PayWithQR",
+     "display_name": "Pay with QR",
+     "payment_code": "UPI",
+     "enabled": true
+    }
+   },
+   {
+    "id": "COD",
+    "groupName": "COD",
+    "displayName": "Pay on delivery",
+    "enabled": true,
+    "raw": {
+     "groupName": "COD",
+     "upiIntent": false,
+     "name": "COD",
+     "display_name": "Pay on delivery",
+     "payment_code": "Cash",
+     "enabled": true
+    }
+   },
+   {
+    "id": "SwiggyPay",
+    "groupName": "SWIGGYPAY",
+    "displayName": "Swiggy Money",
+    "enabled": true,
+    "raw": {
+     "groupName": "SWIGGYPAY",
+     "upiIntent": false,
+     "name": "SwiggyPay",
+     "display_name": "Swiggy Money",
+     "payment_code": "SwiggyPay",
+     "enabled": true,
+     "meta": {}
+    }
+   }
+  ],
+  "agenticPaymentEligible": false,
+  "paymentAmount": "266",
+  "placeOrderToolName": "checkout",
+  "imWidgetV2Eligible": true
+ }
+}

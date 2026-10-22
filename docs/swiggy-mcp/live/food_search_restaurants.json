@@ -1,0 +1,97 @@
+{
+ "_source": "live MCP call 2026-10-22 (structuredContent as returned; long arrays trimmed, values unchanged)",
+ "args": {
+  "query": "biryani",
+  "addressId": "d1k9ctrdq1ocsktt0090__AMXrgASg728rGDWKq4_ky_"
+ },
+ "structuredContent": {
+  "restaurants": [
+   {
+    "id": "30994",
+    "name": "Potful - Claypot Biryanis (Ad)",
+    "cuisines": [
+     "Biryani",
+     "North Indian",
+     "Kebabs",
+     "Mughlai",
+     "Desserts",
+     "Beverages"
+    ],
+    "avgRating": 4.4,
+    "totalRatings": "11K+",
+    "costForTwo": "₹500 for two",
+    "areaName": "Indiranagar",
+    "distanceKm": 0.4,
+    "deliveryTimeMinutes": 41,
+    "deliveryTimeRange": "35-45 MINS",
+    "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/FOOD_CATALOG/IMAGES/CMS/2024/6/15/c4d3169f-62e1-4578-b79d-9ad104274311_f1877ef2-1ac6-410a-a702-53f7cdf0cd8b.jpg",
+    "availabilityStatus": "OPEN"
+   },
+   {
+    "id": "271",
+    "name": "Meghana Foods (Ad)",
+    "cuisines": [
+     "Biryani",
+     "Andhra",
+     "South Indian",
+     "Chinese",
+     "Seafood"
+    ],
+    "avgRating": 4.5,
+    "totalRatings": "129K+",
+    "costForTwo": "₹500 for two",
+    "areaName": "Indiranagar",
+    "distanceKm": 2.6,
+    "deliveryTimeMinutes": 45,
+    "deliveryTimeRange": "40-45 MINS",
+    "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/FOOD_CATALOG/IMAGES/CMS/2026/9/26/2e8c8303-ca1f-42d5-960b-98e233f47025_9add2afd-2991-420f-8c2b-cd8a416be231.jpg",
+    "availabilityStatus": "OPEN"
+   },
+   {
+    "id": "701044",
+    "name": "Paradise Biryani (Ad)",
+    "cuisines": [
+     "Biryani",
+     "Kebabs",
+     "North Indian",
+     "Hyderabadi"
+    ],
+    "avgRating": 4.5,
+    "totalRatings": "13K+",
+    "costForTwo": "₹400 for two",
+    "areaName": "Diamond District",
+    "distanceKm": 3,
+    "deliveryTimeMinutes": 47,
+    "deliveryTimeRange": "40-45 MINS",
+    "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/FOOD_CATALOG/IMAGES/CMS/2025/12/1/4a1f62a3-930f-4af7-8dda-2b282c22e3f1_0442ee12-56ee-4c1e-a387-03f3ec7b061a.jpg_compressed",
+    "availabilityStatus": "OPEN"
+   },
+   {
+    "id": "21155",
+    "name": "Hyderabad Biryaani House (Ad)",
+    "cuisines": [
+     "Biryani",
+     "North Indian",
+     "Chinese",
+     "Tandoor"
+    ],
+    "avgRating": 4.2,
+    "totalRatings": "51K+",
+    "costForTwo": "₹600 for two",
+    "areaName": "Murugeshpalya",
+    "distanceKm": 1.9,
+    "deliveryTimeMinutes": 32,
+    "deliveryTimeRange": "25-30 MINS",
+    "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/dgqyjag69zrlxnmckwc4",
+    "availabilityStatus": "OPEN"
+   }
+  ],
+  "dishes": [],
+  "total": 10,
+  "totalRestaurants": 309,
+  "totalDishes": 0,
+  "query": "biryani",
+  "hasMore": true,
+  "nextOffset": 10
+ }
+}

@@ -1,0 +1,156 @@
+{
+ "_source": "live MCP call 2026-10-22 (structuredContent as returned; long arrays trimmed, values unchanged)",
+ "args": {
+  "addressId": "d1k9ctrdq1ocsktt0090__AMXrgASg728rGDWKq4_ky_"
+ },
+ "structuredContent": {
+  "nextOffset": "0",
+  "products": [
+   {
+    "displayName": "Milky Mist Skyr",
+    "brand": "Milky Mist",
+    "inStock": true,
+    "isAvail": true,
+    "variations": [
+     {
+      "spinId": "W5XN23EPIF",
+      "skuId": "LOXGQRFLG1",
+      "quantityDescription": "700 g x 2",
+      "displayName": "Milky Mist Skyr",
+      "brandName": "Milky Mist",
+      "price": {
+       "mrp": 760,
+       "offerPrice": 660,
+       "unitLevelPrice": "47.1/100 g"
+      },
+      "isInStockAndAvailable": true,
+      "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/NI_CATALOG/IMAGES/ciw/2026/6/20/bc31567c-c755-482e-bf33-fca9a78060d5_12_215e23b4-2e22-4939-a8e6-77ad132859f8.png",
+      "rating": {
+       "value": "4.4",
+       "count": "2k"
+      },
+      "sla": {
+       "value": "17",
+       "unit": "MINS"
+      },
+      "vegClassifier": "VEG_CLASSIFIER_VEG",
+      "maxQuantity": 3,
+      "maxQuantityMessage": "Only 3 unit(s) of this item can be added per order."
+     },
+     {
+      "spinId": "7Z2YUUZ7U4",
+      "skuId": "MTXHHYO3JX",
+      "quantityDescription": "700 g",
+      "displayName": "Milky Mist Skyr",
+      "brandName": "Milky Mist",
+      "price": {
+       "mrp": 380,
+       "offerPrice": 330,
+       "unitLevelPrice": "47.1/100 g"
+      },
+      "isInStockAndAvailable": true,
+      "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/NI_CATALOG/IMAGES/ciw/2026/6/20/bc31567c-c755-482e-bf33-fca9a78060d5_12_215e23b4-2e22-4939-a8e6-77ad132859f8.png",
+      "rating": {
+       "value": "4.4",
+       "count": "2k"
+      },
+      "sla": {
+       "value": "17",
+       "unit": "MINS"
+      },
+      "vegClassifier": "VEG_CLASSIFIER_VEG",
+      "maxQuantity": 6,
+      "maxQuantityMessage": "Only 6 unit(s) of this item can be added per order."
+     }
+    ],
+    "productId": "VVB5LMWDYP",
+    "parentProductId": "VUJRRXGZKK",
+    "isPromoted": false
+   },
+   {
+    "displayName": "Ginger (Shunti)",
+    "brand": "Fruits & Vegetables Category",
+    "inStock": true,
+    "isAvail": true,
+    "variations": [
+     {
+      "spinId": "DZNDGQC4GL",
+      "skuId": "C4FMSMKGFM",
+      "quantityDescription": "200 g x 2",
+      "displayName": "Ginger (Shunti)",
+      "brandName": "Fruits & Vegetables Category",
+      "price": {
+       "mrp": 128,
+       "offerPrice": 90,
+       "unitLevelPrice": "22.5/100 g"
+      },
+      "isInStockAndAvailable": true,
+      "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/NI_CATALOG/IMAGES/CIW/2026/9/3/ffdcb8d6-f764-461d-bb4a-ceb7be53280f_3795_1.png",
+      "sla": {
+       "value": "17",
+       "unit": "MINS"
+      },
+      "vegClassifier": "VEG_CLASSIFIER_VEG",
+      "maxQuantity": 2,
+      "maxQuantityMessage": "Only 2 unit(s) of this item can be added per order."
+     },
+     {
+      "spinId": "410ACHP4RV",
+      "skuId": "VFI8JPGHX9",
+      "quantityDescription": "200 g",
+      "displayName": "Ginger (Shunti)",
+      "brandName": "Fruits & Vegetables Category",
+      "price": {
+       "mrp": 64,
+       "offerPrice": 46,
+       "unitLevelPrice": "23/100 g"
+      },
+      "isInStockAndAvailable": true,
+      "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/NI_CATALOG/IMAGES/CIW/2026/9/2/be4fa084-8471-4c07-ade1-7685cfd5ad59_3795.png",
+      "sla": {
+       "value": "17",
+       "unit": "MINS"
+      },
+      "vegClassifier": "VEG_CLASSIFIER_VEG",
+      "maxQuantity": 5,
+      "maxQuantityMessage": "Only 5 unit(s) of this item can be added per order."
+     }
+    ],
+    "productId": "0FYKU31E4B",
+    "parentProductId": "TA28GGRU1L",
+    "isPromoted": false
+   },
+   {
+    "displayName": "Thyronorm 100Mcg Bottle Of 120 Tablets",
+    "brand": "Thyronorm",
+    "inStock": true,
+    "isAvail": true,
+    "variations": [
+     {
+      "spinId": "WDDO29CIA8",
+      "skuId": "VITFAN53WG",
+      "quantityDescription": "120 pieces",
+      "displayName": "Thyronorm 100Mcg Bottle Of 120 Tablets",
+      "brandName": "Thyronorm",
+      "price": {
+       "mrp": 169,
+       "offerPrice": 147
+      },
+      "isInStockAndAvailable": true,
+      "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/NI_CATALOG/IMAGES/CIW/2024/10/14/7e7ccbe7-399c-46d1-88db-1e897816bea9_I08887_1.png",
+      "sla": {
+       "value": "19",
+       "unit": "MINS"
+      },
+      "vegClassifier": "VEG_CLASSIFIER_INVALID",
+      "maxQuantity": 4,
+      "maxQuantityMessage": "That’s all we have in stock at the moment!"
+     }
+    ],
+    "productId": "E30MO36ZVH",
+    "parentProductId": "J6LB3M3KW6",
+    "isPromoted": false
+   }
+  ]
+ }
+}

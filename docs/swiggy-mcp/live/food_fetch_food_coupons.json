@@ -1,0 +1,17 @@
+{
+ "_source": "live MCP call 2026-10-22 (structuredContent as returned; long arrays trimmed, values unchanged)",
+ "args": {
+  "restaurantId": "271",
+  "addressId": "d1k9ctrdq1ocsktt0090__AMXrgASg728rGDWKq4_ky_"
+ },
+ "structuredContent": {
+  "status_message": "done successfully",
+  "coupon_sections": [],
+  "summary": {
+   "total_coupons": 0,
+   "applicable_coupons": 0,
+   "sections_count": 0,
+   "filter_applied": "COD only"
+  }
+ }
+}
