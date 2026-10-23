@@ -34,35 +34,6 @@ export function onPickerReady(fn: (messageId: string, kind: PickerEntry['kind'])
   };
 }
 
-// "Show this picker" requests. A picker lives in a popup (PickerPopup) that stays
-// closed until the user taps its card — or until something the user just asked
-// for (a card tap, a chat selection, "Book best") needs it on screen. Requests
-// made before the popup mounts are remembered by message id.
-const openRequested = new Set<string>();
-const openListeners = new Map<string, Set<() => void>>();
-
-export function requestPickerOpen(messageId: string): void {
-  if (autoCartHold) return; // the Plan tab's autonomous run never pops a sheet
-  const ls = openListeners.get(messageId);
-  if (ls && ls.size) ls.forEach((fn) => fn());
-  else openRequested.add(messageId);
-}
-
-/** Subscribe a popup to open requests; returns whether one was already waiting. */
-export function watchPickerOpen(messageId: string, fn: () => void): { waiting: boolean; stop: () => void } {
-  const waiting = openRequested.delete(messageId);
-  let set = openListeners.get(messageId);
-  if (!set) openListeners.set(messageId, (set = new Set()));
-  set.add(fn);
-  return {
-    waiting,
-    stop: () => {
-      set.delete(fn);
-      if (!set.size) openListeners.delete(messageId);
-    },
-  };
-}
-
 export function registerPicker(messageId: string, entry: PickerEntry): () => void {
   entries.set(messageId, entry);
   const waiting = pending.get(messageId);
@@ -101,7 +72,6 @@ export function pickerSnapshot(messageId: string): ActivePicker | null {
 
 /** Hand a selection to the picker of `messageId` (queued if not mounted yet). */
 export function sendToPicker(messageId: string, sel: PickerSelectFields): void {
-  requestPickerOpen(messageId);
   const entry = entries.get(messageId);
   if (entry) entry.apply(sel);
   else pending.set(messageId, sel);
@@ -162,7 +132,6 @@ function applyBest(entry: PickerEntry): void {
  * SELECTS — the user still taps the picker's final Confirm / Review.
  */
 export function sendBestPick(messageId: string): void {
-  requestPickerOpen(messageId);
   const entry = entries.get(messageId);
   if (entry) applyBest(entry);
   else pendingBest.add(messageId);

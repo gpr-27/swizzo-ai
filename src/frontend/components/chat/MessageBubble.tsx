@@ -25,7 +25,6 @@ import { ProductGrid } from '../catalog/ProductGrid';
 import { FoodRestaurantCard } from '../catalog/FoodRestaurantCard';
 import { RevealList } from '../catalog/RevealList';
 import { SpikeMark } from '../navigation/SpikeMark';
-import { PickerPopup } from '../features/PickerPopup';
 import { TypingDots } from './TypingDots';
 import { stripMarkers } from './markers';
 import { ModelBadge } from './ModelBadge';
@@ -663,15 +662,7 @@ export function MessageBubble({
         {/* Dineout — available slots picker */}
         {message.dineoutSlots && (
           <div className="mt-3">
-            <PickerPopup
-              messageId={message.id}
-              emoji="🍽️"
-              title={`Table at ${message.dineoutSlots.restaurantName}`}
-              subtitle="Pick a day, time and offer"
-              cta="Choose slot"
-            >
-              <DineoutSlotPicker view={message.dineoutSlots} messageId={message.id} onBookSlot={onBookDineoutSlot} />
-            </PickerPopup>
+            <DineoutSlotPicker view={message.dineoutSlots} messageId={message.id} onBookSlot={onBookDineoutSlot} />
           </div>
         )}
 
@@ -723,14 +714,7 @@ export function MessageBubble({
         {/* Scenes — show & ticket picker (cart summary → confirm → pay / free) */}
         {message.scenesShows && (
           <div className="mt-3">
-            <PickerPopup
-              messageId={message.id}
-              title={message.scenesShows.eventTitle || 'Shows & tickets'}
-              subtitle={[message.scenesShows.venueName, message.scenesShows.dateSummary].filter(Boolean).join(' · ') || 'Pick a show and tickets'}
-              cta="Choose tickets"
-            >
-              <ScenesShowPicker listing={message.scenesShows} messageId={message.id} onOrderPlaced={onBookScenesShow} />
-            </PickerPopup>
+            <ScenesShowPicker listing={message.scenesShows} messageId={message.id} onOrderPlaced={onBookScenesShow} />
           </div>
         )}
 
